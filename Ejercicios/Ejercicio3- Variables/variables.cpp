@@ -6,11 +6,11 @@ int main(int argc, char const *argv[])
   int numeroEntero;
 numeroEntero = 15;
 
-cout<<numeroEntero;
-cout<<endl;
+cout <<"Entero:"<< numeroEntero;
+cout << endl;
 
 numeroEntero = 18;
-cout<<numeroEntero;
+cout << "Entero modificado:"<< numeroEntero;
 
     return 0;
 }
