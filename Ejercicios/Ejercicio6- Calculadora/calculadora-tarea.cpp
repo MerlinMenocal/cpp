@@ -22,7 +22,6 @@ int main(int argc, char** argv) {
     multiplicacion = valorA * valorB;
     division = valorA / valorB;
     
-    cout<<endl;
     cout<<"La Suma de los valores es: "<<suma<<endl;
     cout<<"La Resta de los valores es: "<<resta<<endl;
     cout<<"La Multiplicación de los valores es: "<<multiplicacion<<endl;
