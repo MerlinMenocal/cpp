@@ -7,7 +7,7 @@ int main (int argc, char const *argv[])
     bool valorBoolean;
     valorBoolean = false;
     /* true = 1
-        */
+       false = 0*/
 
     int valorEntero = 15;
     double valorDouble = 20.99;
