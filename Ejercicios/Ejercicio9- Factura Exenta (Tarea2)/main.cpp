@@ -36,6 +36,8 @@ if (facturaExenta =='s' || facturaExenta == 'S')
        calculoDescuento = (subtotal * descuento) / 100;
        calculoImpuesto = (subtotal - calculoDescuento ) * 0.15;
        total = subtotal - calculoDescuento + calculoImpuesto;
+       cout<<"Su Descuento es de: "<<calculoDescuento<<endl;
+       cout<<"Total Impuesto es: "<<calculoImpuesto;
      }else{
         cout<<"Ingreso un valor no Válido!"; //si ingresa una letra diferente a S/s o N/n
         }
