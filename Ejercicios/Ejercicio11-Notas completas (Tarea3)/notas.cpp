@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
             }else{
                 if (nota>=80 && nota<=84)
                 {
-                    cout<<"Su nota es A++";
+                    cout<<"Su nota es A-";
                 }else{
                     if (nota>=75 && nota<=79)
                     {
