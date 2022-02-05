@@ -1,5 +1,5 @@
 #include <iostream>
-//#include <iomanip>
+#include <iomanip>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
@@ -34,7 +34,7 @@ if (facturaExenta =='s' || facturaExenta == 'S')
 }else{
     if (facturaExenta =='n'|| facturaExenta == 'N')
     {
-       cout<<fixed<<setprecision(4);
+       cout<<fixed<<setprecision(2);
        calculoDescuento = (subtotal * descuento) / 100;
        calculoImpuesto = (subtotal - calculoDescuento ) * 0.15;
        total = subtotal - calculoDescuento + calculoImpuesto;
