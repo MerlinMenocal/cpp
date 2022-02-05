@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
         cout<<"Obtuviste una D";
     }
     if (nota<60){
-        cout<<"Obtuviste una F";
+        cout<<"Obtuviste una E";
     }
     
     
