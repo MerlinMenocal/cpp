@@ -27,10 +27,10 @@ int main(int argc, char const *argv[])
         cout<<"Obtuviste una D";
     }
     if (nota>=60 && nota<=64){
-        cout<<"Obtuviste una D";
+        cout<<"Obtuviste una E";
     }
     if (nota<60){
-        cout<<"Obtuviste una E";
+        cout<<"Obtuviste una F";
     }
     
     
