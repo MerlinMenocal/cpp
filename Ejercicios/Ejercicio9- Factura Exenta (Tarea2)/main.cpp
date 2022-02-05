@@ -25,7 +25,6 @@ int main(int argc, char** argv) {
     cout<<"Si la respuesta es SI, escriba S/s"<<endl;
     cout<<"Si la respuesta es NO, escriba N/n"<<endl;
     cin>>facturaExenta;
-    cout<<endl;
     
 if (facturaExenta =='s' || facturaExenta == 'S')
 {
