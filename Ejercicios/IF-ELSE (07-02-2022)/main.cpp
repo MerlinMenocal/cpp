@@ -29,7 +29,7 @@ int edad2 = 10;
 
 while (edad1 > edad2)
 {
-    cout<<"Edad 1 es mayor que Edad 2"<<endl;
+    cout<< edad1 <<"Edad 1 es mayor que Edad 2"<<endl;
    edad2 = edad2 +1;
     
    if (edad2==14)
