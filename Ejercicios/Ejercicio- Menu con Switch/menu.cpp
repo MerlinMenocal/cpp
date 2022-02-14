@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
 		if (opcion ==0){
 			break;
 		}
-		
+	
 		switch (opcion)
 		{
 			case 1:
@@ -57,6 +57,6 @@ int main(int argc, char** argv) {
 				break;
 				}
 		}
-					
+	}				
 	return 0;
 }
