@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
     for (int i = 0; i < 10; i++)
     {
-        cout<<i<<endl;
+        cout<<i<<" ";
     }
 
     cout<<endl;
@@ -14,6 +14,20 @@ int main(int argc, char const *argv[])
     {
         cout<<i<<" ";
     }
+    
+    cout<<endl;
+
+    for (int i = 0; i < 10000; i++)
+    {
+        cout<<i<<" ";
+    }
+
+    if (i == 115)
+    {
+        break;
+    }
+    
+
     
     return 0;
 }
