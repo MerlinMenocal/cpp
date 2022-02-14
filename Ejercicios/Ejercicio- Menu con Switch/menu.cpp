@@ -24,6 +24,7 @@ int main(int argc, char** argv) {
 		cin>>opcion;
 
 		if (opcion ==0){
+			cout<<"Salistes del sistema"<<endl;
 			break;
 		}
 	
