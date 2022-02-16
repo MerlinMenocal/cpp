@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
  int impares = 0; 
  double total = 0;
 
-for (int i = 1; i <= 10; i++)
+for (int i = 1; i <= 12; i++)
 {
     if ( i % 2 ==0)
     {
