@@ -15,16 +15,16 @@ for (int i = 1; i <= 10; i++)
     {
         pares = pares + i;
     }
-    cout<< i <<endl;
+    //cout<< i <<endl;
 
     if ( i % 2 ==1)
     {
        impares = impares + i;
     }
-    cout<< i <<endl;
-    
-
+    //cout<< i <<endl;
 }
+
+total = pares +impares;
 cout<<endl;
 cout<<endl;
 cout<<"Total Pares: "<<pares<<endl;
