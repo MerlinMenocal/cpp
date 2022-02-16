@@ -6,8 +6,6 @@ int main(int argc, char const *argv[])
 {
  
  int pares = 0;
- int impares = 0; 
- double total = 0;
 
 for (int i = 1; i <= 10; i++)
 {
@@ -16,20 +14,10 @@ for (int i = 1; i <= 10; i++)
         pares = pares + i;
     }
     cout<< i <<endl;
-
-    if ( i % 2 ==1)
-    {
-       impares = impares + i;
-    }
-    cout<< i <<endl;
-    
-
 }
 cout<<endl;
 cout<<endl;
-cout<<"Total Pares: "<<pares<<endl;
-cout<<"Total Impares: "<<impares<<endl<<endl;
-cout<<"Total de Pares e Impares: "<<total;
+cout<<"Total pares: "<<pares;
 
     return 0;
 }
