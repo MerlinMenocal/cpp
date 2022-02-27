@@ -16,7 +16,7 @@ int main() {
 	cout << "Eres un agente? ingresa tu contraseña para acceder a la Matriz ";
 	cin >> constrasena;
 	
-	if (constrasena == "smith" || constrasena == "neo") {
+	if (constrasena == "smith") {
 		system("COLOR 02");
 
 		char caRow[80];
@@ -27,7 +27,18 @@ int main() {
 
 		while (true) {
 			int i = 0;
-			
+
+			if (constrasena == "neo")
+			 {
+				while (true)
+				{
+				 if (i <=10) {
+		             break;
+			        }
+				}
+				
+			 }
+
 			// caracteres aleatorios
 			while (i < 80) {
 				if (caRow[i] != ' ') {
@@ -46,21 +57,14 @@ int main() {
 			caRow[Modulus(m, 80)] = ' ';
 			
 			//incremente el valor de 3000000 para retrasar el proceso
-			 i = 1;
-
-			while (i <=10) { 
-				if (constrasena == "neo") {
-					GetChar(1, 1, 1);
-				 //++i;
+				while (i <300000) {  
+				GetChar(1, 1, 1);
+				 ++i;
 			}
-			break;
-				}
-
-			// 	while (i <300000) {  
-			// 	GetChar(1, 1, 1);
-			// 	 ++i;
-			// }
+			 
 			}
+
+         
 
 		} else{
 		cout << "acceso a la matrix denegado";
