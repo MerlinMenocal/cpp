@@ -2,7 +2,7 @@
 
 using namespace std;
 
-double subtotal;
+double subtotal =0;
 double impuesto = 0;
 double total = 0;
 
