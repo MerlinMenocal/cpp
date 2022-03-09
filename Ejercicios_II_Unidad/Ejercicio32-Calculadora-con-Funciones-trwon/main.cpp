@@ -34,9 +34,9 @@ int main(int argc, char const *argv[])
         cout<<"Resultado de "<< n1 << operador << n2 << " es: ";
         cout<<calculadora(n1, n2, operador);
     }
-    catch(const exception& e)
+    catch(const char* error)
     {
-        cout << e.what();
+        cout << error;
     }
     
     
