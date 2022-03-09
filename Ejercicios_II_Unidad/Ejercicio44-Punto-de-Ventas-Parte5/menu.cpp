@@ -25,10 +25,10 @@ void menu(){
         cout<<"0 - Salir"<<endl;
 
         cout<<endl;
-
-
-        cin>>opcion;
         cout<<"Ingrese una Opcion: ";
+        cin>>opcion;
+        
+        
         if (opcion == 0)
         {
             break;
