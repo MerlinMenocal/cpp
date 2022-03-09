@@ -5,11 +5,39 @@ using namespace std;
 int sumar(int a, int b){
     return a + b;
 }
+int restar(int a, int b){
+    return a - b;
+}
+int multiplicar(int a, int b){
+    return a * b;
+}
+int dividir(int a, int b){
+    return a / b;
+}
 
 int calculadora(int a, int b, char operador){
-   if (operador == '+'){
+   switch (operador)
+   {
+   case '+':
        return sumar(a, b);
+       break;
+   
+   case '-':
+       return restar(a, b);
+       break;
+   
+   case '*':
+       return multiplicar(a, b);
+       break;
+   
+   case '*':
+       return dividir(a, b);
+       break;
+   
+   default:
+       break;
    }
+   
    throw "El Operador no existe"; //hace que el programa falle si no encuentra que hacer
 }
 
