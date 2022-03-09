@@ -10,7 +10,7 @@ int calculadora(int a, int b, char operador){
    if (operador == '+'){
        return sumar(a, b);
    }
-   return -1;
+   throw "El Operador no existe";
 }
 
 
