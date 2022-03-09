@@ -12,6 +12,11 @@ int multiplicar(int a, int b){
     return a * b;
 }
 int dividir(int a, int b){
+    if (b == 0)
+    {
+        throw "No se puede Dividir entre 0";
+    }
+    
     return a / b;
 }
 
@@ -30,7 +35,7 @@ int calculadora(int a, int b, char operador){
        return multiplicar(a, b);
        break;
    
-   case '*':
+   case '/':
        return dividir(a, b);
        break;
    
