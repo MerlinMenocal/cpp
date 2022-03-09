@@ -11,7 +11,7 @@ void productos( int opcion)
 
     switch (opcion)
     {
-    case 1:
+    case 1: //---------------BEBIDAS CALIENTES---------------------------
     {
         cout<<"BEBIDAS CALIENTES"<<endl;
         cout<<"-----------------"<<endl;
@@ -46,7 +46,7 @@ void productos( int opcion)
         system("pause");
         break;
     }
-    case 2:
+    case 2: //----------------------BEBIDAS FRIAS------------------------------
     {
         cout<<"BEBIDAS FRIAS"<<endl;
         cout<<"-------------"<<endl;
@@ -82,7 +82,7 @@ void productos( int opcion)
         system("pause");
         break;
     }
-    case 3:
+    case 3:  //-----------------------REPOSTERIA------------------------------------
     {
         cout<<"REPOSTERIA"<<endl;
         cout<<"----------"<<endl;
