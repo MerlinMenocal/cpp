@@ -79,7 +79,6 @@ void productos( int opcion)
         cout<<endl;
         cout<< "Producto agregado"<<endl<<endl;
         system("pause");
-        system("pause");
         break;
     }
     case 3:  //-----------------------REPOSTERIA------------------------------------

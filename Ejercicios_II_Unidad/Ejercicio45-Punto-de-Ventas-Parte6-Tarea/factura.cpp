@@ -3,7 +3,7 @@
 using namespace std;
 
 double subtotal;
-double impuesto = 0.15;
+double impuesto = 0;
 double total = 0;
 
 string listaProductos;
@@ -12,7 +12,7 @@ void agregarProducto(string descripcion, int cantidad, double precio)
 {
     listaProductos = listaProductos + descripcion + '\n';
     subtotal = subtotal + (cantidad * precio);
-    impuesto *=subtotal;
+    impuesto =subtotal * 0.15;
     total = subtotal + impuesto;
 
 }
