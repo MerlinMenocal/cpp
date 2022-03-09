@@ -14,10 +14,9 @@ void imprimirCaracteres(char caracter, int ciclos)
 int main(int argc, char const *argv[])
 {
     imprimirCaracteres('@', 10);
-    imprimirCaracteres('*', 5);
+    imprimirCaracteres('#', 5);
     cout <<"Hola Mundo"<<endl;
     imprimirCaracteres('*', 1000);
-    cout <<"Hola Mundo";
 
 
     return 0;
