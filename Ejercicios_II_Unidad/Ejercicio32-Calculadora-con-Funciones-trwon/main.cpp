@@ -10,7 +10,7 @@ int calculadora(int a, int b, char operador){
    if (operador == '+'){
        return sumar(a, b);
    }
-   throw "El Operador no existe";
+   throw "El Operador no existe"; //hace que el programa falle si no encuentra que hacer
 }
 
 
@@ -28,7 +28,17 @@ int main(int argc, char const *argv[])
     cin>>operador;
 
     cout<<endl;
-    cout<<"Resultado de "<< n1 << operador << n2 << " es: ";
-    cout<<calculadora(n1, n2, operador);
+
+    try
+    {
+        cout<<"Resultado de "<< n1 << operador << n2 << " es: ";
+        cout<<calculadora(n1, n2, operador);
+    }
+    catch(const exception& e)
+    {
+        cout << e.what();
+    }
+    
+    
     return 0;
 }
