@@ -24,8 +24,11 @@ void menu(){
         cout<<"4 - Imprimir Factura"<<endl;
         cout<<"0 - Salir"<<endl;
 
-        cin>>opcion;
+        cout<<endl;
 
+
+        cin>>opcion;
+        cout<<"Ingrese una Opcion: ";
         if (opcion == 0)
         {
             break;
