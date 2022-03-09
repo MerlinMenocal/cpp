@@ -11,6 +11,9 @@ void menu(){
         cout<<"****";
         cout<<"MENU";
         cout<<"****";
+        cout<<endl;
+        cout<<endl;
+        cout<<endl;
 
         cout<<"1 - Bebidas Calientes"<<endl;
         cout<<"2 - Bebidas Frias"<<endl;
