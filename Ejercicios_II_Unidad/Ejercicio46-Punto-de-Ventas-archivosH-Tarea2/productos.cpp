@@ -1,11 +1,11 @@
 #include <iostream>
-#include"main.h"
-#include"menu.h"
-#include "productos.h"
+//#include"main.h"
+//#include"menu.h"
+//#include "productos.h"
 
 
 using namespace std;
-//extern void agregarProducto(string descripcion, int cantidad, double precio);
+extern void agregarProducto(string descripcion, int cantidad, double precio);
 
 void productos( int opcion)
 {
