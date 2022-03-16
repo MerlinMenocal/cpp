@@ -1,6 +1,4 @@
 #include <iostream>
-//#include "menu.h"
-//#include "main.h"
 #include "produc.h"
 
 using namespace std;
