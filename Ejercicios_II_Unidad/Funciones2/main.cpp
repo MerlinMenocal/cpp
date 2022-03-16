@@ -14,8 +14,9 @@ if (o== '+'){
     return a * b;
   }
   if (o== '/'){
-    return a / b;
+    return a /b;
   }
+  return 0;
 }
 
 int main(int argc, char const *argv[])
@@ -34,7 +35,7 @@ int main(int argc, char const *argv[])
 
     cout<<"Que operacion desea realizar?"<<endl;
     cout<<"============================"<<endl;
-    cout<<"Ingrese un caracter: ";
+    cout<<"Ingrese un caracter: "<<endl;
     cout<<"+"<<endl;
     cout<<"-"<<endl;
     cout<<"*"<<endl;
