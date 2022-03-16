@@ -1,6 +1,6 @@
 #include <iostream>
-#include "productos.h"
-#include "menu.h"
+//#include "productos.h"
+//#include "menu.h"
 
 using namespace std;
 
