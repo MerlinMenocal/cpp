@@ -10,6 +10,6 @@ int suma(){
 
 int main(int argc, char const *argv[])
 {
-    cout<<suma;
+    cout<<suma();
     return 0;
 }
