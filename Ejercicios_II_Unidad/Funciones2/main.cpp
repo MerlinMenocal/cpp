@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int calculadora(int a, int b, char o ){
+float calculadora(float a,float b, char o ){
 
 if (o== '+'){
     return a + b;
@@ -21,9 +21,9 @@ if (o== '+'){
 
 int main(int argc, char const *argv[])
 {
-    int numero1 =0; 
-    int numero2 =0;
-    int resultado =0;
+    float numero1 =0; 
+    float numero2 =0;
+    float resultado =0;
     char operador;
 
     system("cls");
