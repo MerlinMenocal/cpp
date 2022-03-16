@@ -1,6 +1,4 @@
 #include <iostream>
-//#include "productos.h"
-#include "main.h"
 
 using namespace std;
 
