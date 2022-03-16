@@ -1,5 +1,5 @@
 #include <iostream>
-//#include "main.h"
+#include "productos.h"
 
 using namespace std;
 

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-//extern void productos(int opcion);
+//extern void productos(int opcion);  sustituidos por el archivo.h
 //extern void imprimirFactura();
 
 void menu(){

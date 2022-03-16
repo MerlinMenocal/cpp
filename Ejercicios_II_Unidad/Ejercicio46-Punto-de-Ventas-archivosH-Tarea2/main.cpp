@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//extern void menu();
+//extern void menu(); archivo.h
 
 int main(int argc, char const *argv[])
 {
