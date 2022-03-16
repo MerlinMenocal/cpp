@@ -52,7 +52,16 @@ int main(int argc, char const *argv[])
     cout<<endl;
 
     resultado = (calculadora (5 ,7, '+') + calculadora (10, 2, '-')) / calculadora(5, 3, '*');
-    cout<<"Otro resultado> "<<resultado;
+    cout<<"Otro resultado 1> "<<resultado;
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
 
+    resultado = calculadora(calculadora(2, 2, '+'), calculadora(3, 1, '-'), '*');
+    
+    cout<<"Otro resultado 2> "<<resultado;
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
     return 0;
 }
