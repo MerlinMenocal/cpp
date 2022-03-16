@@ -1,6 +1,7 @@
 #include <iostream>
 #include"main.h"
 #include"menu.h"
+#include "productos.h"
 
 
 using namespace std;
