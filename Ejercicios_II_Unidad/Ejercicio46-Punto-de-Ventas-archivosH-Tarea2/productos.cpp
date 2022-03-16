@@ -4,7 +4,7 @@
 
 
 using namespace std;
-//extern void agregarProducto(string descripcion, int cantidad, double precio);
+extern void agregarProducto(string descripcion, int cantidad, double precio);
 
 void productos( int opcion)
 {
