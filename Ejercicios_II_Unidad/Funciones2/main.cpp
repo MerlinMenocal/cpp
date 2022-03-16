@@ -32,13 +32,13 @@ int main(int argc, char const *argv[])
     cin>>numero2;
     cout<<endl;
 
-    cout<<"Que opecaion desea realizar?";
-    cout<<"============================";
+    cout<<"Que operacion desea realizar?"<<endl;
+    cout<<"============================"<<endl;
     cout<<"Ingrese un caracter: ";
-    cout<<"+";
-    cout<<"-";
-    cout<<"*";
-    cout<<"/";
+    cout<<"+"<<endl;
+    cout<<"-"<<endl;
+    cout<<"*"<<endl;
+    cout<<"/"<<endl;
 
     cin>>operador;
 
