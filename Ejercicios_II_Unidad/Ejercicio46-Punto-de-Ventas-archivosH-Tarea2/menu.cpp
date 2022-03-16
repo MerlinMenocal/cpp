@@ -1,9 +1,10 @@
 #include<iostream>
+#include "menu.h"
 
 using namespace std;
 
-extern void productos(int opcion);
-extern void imprimirFactura();
+//extern void productos(int opcion);
+//extern void imprimirFactura();
 
 void menu(){
 
@@ -27,8 +28,7 @@ void menu(){
         cout<<endl;
         cout<<"Ingrese una Opcion: ";
         cin>>opcion;
-        
-        
+         
         if (opcion == 0)
         {
             break;
