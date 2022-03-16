@@ -45,6 +45,6 @@ int main(int argc, char const *argv[])
 
         resultado =calculadora(numero1, numero2, operador);
 
-    //cout<<"Resultado: "<<calculadora(numero1, numero2);
+    cout<<"Resultado: "<<resultado;
     return 0;
 }
