@@ -63,5 +63,15 @@ int main(int argc, char const *argv[])
     cout<<endl;
     cout<<endl;
     cout<<endl;
+
+    int r1 = calculadora(2, 2, '+');
+    int r2 = calculadora(3, 1, '-');
+    
+    resultado = calculadora(r1, r2, '*');
+    
+    cout<<"Otro resultado 2> "<<resultado;
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
     return 0;
 }
