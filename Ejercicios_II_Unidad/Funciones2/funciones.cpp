@@ -2,9 +2,8 @@
 
 using namespace std;
 
-float calculadora(float n1, float n2){
-    return n1 + n2;
-}
+float calculadora(float n1, float n2);
+    
 
 int main(int argc, char const *argv[])
 {
@@ -12,3 +11,7 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+float calculadora(float n1, float n2){
+    
+    return n1 + n2;
+}
