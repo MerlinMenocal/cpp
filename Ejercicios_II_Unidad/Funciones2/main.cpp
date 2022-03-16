@@ -14,7 +14,10 @@ if (o== '+'){
     return a * b;
   }
   if (o== '/'){
-    return a /b;
+      if(b =! 0){
+        return a /b;
+      }
+    
   }
   return 0;
 }
@@ -46,5 +49,10 @@ int main(int argc, char const *argv[])
         resultado =calculadora(numero1, numero2, operador);
 
     cout<<"Resultado: "<<resultado;
+    cout<<endl;
+
+    resultado = (calculadora (5 ,7, '+') + calculadora (10, 2, '-')) / calculadora(5, 3, '*');
+    cout<<"Otro resultado"<<resultado;
+
     return 0;
 }
