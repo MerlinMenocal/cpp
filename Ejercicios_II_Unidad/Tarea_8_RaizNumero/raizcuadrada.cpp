@@ -14,11 +14,11 @@ return raizCuadrada = sqrt(4);
 
 int main(int argc, char const *argv[])
 {
-   int raizCuadrada =0;
-   int numero = 3;
+   double raizCuadrada =0;
+   double numero = 3;
 
    raizCuadrada = sqrt(numero);
-   cout<<"La Raiz Cuadrada de este Numero"<< numero <<" es:"<<raizCuadrada;
+   cout<<"La Raiz Cuadrada de "<< numero <<" es:"<<raizCuadrada;
 
     return 0;
 }
