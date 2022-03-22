@@ -1,4 +1,5 @@
 #include<iostream>
+#include <stdio.h>
 #include <math.h>
 
 //Cree una función que calcule la raiz cuadrada de un número 
