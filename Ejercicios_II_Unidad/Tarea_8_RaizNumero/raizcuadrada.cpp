@@ -40,7 +40,7 @@ double raizCuadrada(double numero)
     resultado = sqrt(numero);
     cout<<"La Raiz Cuadrada es: "<<resultado;
 
-    return 0;
+    return raizCuadrada(4);
 
 }
  int main(int argc, char const *argv[])
