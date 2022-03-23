@@ -7,7 +7,7 @@ using namespace std;
 dado utilizando alguna función de la libreria math.h  */
 
 
-int main(int argc, char const *argv[])
+int raiz(int argc, char const *argv[])
 {
    double raizCuadrada =0;
    double numero = 0;
