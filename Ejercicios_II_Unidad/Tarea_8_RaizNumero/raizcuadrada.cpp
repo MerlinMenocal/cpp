@@ -6,7 +6,8 @@ using namespace std;
 //Cree una función que calcule la raiz cuadrada de un número 
 //dado utilizando alguna función de la libreria math.h
 
-int raizNumero(double raizCuadrada, double numero){
+double raizCuadrada = 0;
+int raizNumero(double numero){
 
     //double numero = 4;
     //raizCuadrada = sqrt(numero);
