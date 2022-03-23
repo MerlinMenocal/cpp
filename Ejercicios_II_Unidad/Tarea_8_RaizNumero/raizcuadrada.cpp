@@ -12,6 +12,7 @@ int raizNumero(double numero){
     //double numero = 4;
     //raizCuadrada = sqrt(numero);
 return raizCuadrada = sqrt(numero);
+cout<<"la Raiz Cuadrada es: "<<raizCuadrada;
 
 }
 
