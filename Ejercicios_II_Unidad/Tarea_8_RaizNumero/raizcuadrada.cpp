@@ -38,8 +38,9 @@ double resultado = 0;
 double raizCuadrada(double numero)
 {
     resultado = sqrt(numero);
+    cout<<"La Raiz Cuadrada es: "<<resultado;
 
-    return resultado;
+    return 0;
 
 }
  int main(int argc, char const *argv[])
