@@ -22,7 +22,7 @@ using namespace std;
 // }
 
 
-double calculoRaiz(int argc, char const *argv[])
+int main(int argc, char const *argv[])
 {
    double raizCuadrada =0;
    double numero = 4;
