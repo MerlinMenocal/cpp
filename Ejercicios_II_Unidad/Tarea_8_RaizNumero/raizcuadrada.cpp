@@ -12,6 +12,10 @@ double raizNumero(double numero){
 
     //double numero = 4;
     //raizCuadrada = sqrt(numero);
+    cout<<"Ingrese un Numero: "<<endl;
+    cin>>numero;
+
+
 return raizCuadrada = sqrt(numero);
 cout<<"la Raiz Cuadrada es: "<<raizCuadrada;
 
