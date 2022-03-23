@@ -10,7 +10,7 @@ int raizNumero(double raizCuadrada, double numero){
 
     //double numero = 4;
     //raizCuadrada = sqrt(numero);
-return sqrt(numero);
+return raizCuadrada = sqrt(numero);
 
 }
 
