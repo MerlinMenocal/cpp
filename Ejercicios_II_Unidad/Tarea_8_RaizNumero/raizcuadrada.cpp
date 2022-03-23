@@ -35,7 +35,7 @@ using namespace std;
 
 double resultado = 0;
 
-double raizCuadrada(double numero)
+void raizCuadrada(double numero)
 {
     resultado = sqrt(numero);
     cout<<"La Raiz Cuadrada es: "<<resultado;
