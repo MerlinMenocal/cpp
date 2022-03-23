@@ -42,6 +42,12 @@ double raizCuadrada(double numero)
     return resultado;
 
 }
+ int main(int argc, char const *argv[])
+ {
+     /* code */
+     return 0;
+ }
+ 
 
 
 
