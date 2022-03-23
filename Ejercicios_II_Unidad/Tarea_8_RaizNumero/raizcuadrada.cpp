@@ -10,6 +10,12 @@ double sumar(double a, double b){
 
     return a + b;
 }
+int main(int argc, char const *argv[])
+{
+    /* code */
+    return 0;
+}
+
 
 // double raizCuadrada = 0;
 // double raizNumero(double numero){
