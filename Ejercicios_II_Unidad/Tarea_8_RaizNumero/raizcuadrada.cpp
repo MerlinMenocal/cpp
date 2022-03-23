@@ -22,16 +22,26 @@ using namespace std;
 // }
 
 
-int main(int argc, char const *argv[])
+// int main(int argc, char const *argv[])
+// {
+//    double raizCuadrada =0;
+//    double numero = 4;
+
+//    raizCuadrada = sqrt(numero);
+//    cout<<"La Raiz Cuadrada de "<< numero <<" es: "<<raizCuadrada;
+
+//     return 0; 
+// } 
+
+double resultado = 0;
+
+double raizCuadrada(double numero)
 {
-   double raizCuadrada =0;
-   double numero = 4;
+    resultado = sqrt(numero);
 
-   raizCuadrada = sqrt(numero);
-   cout<<"La Raiz Cuadrada de "<< numero <<" es: "<<raizCuadrada;
+    return resultado;
 
-    return 0; 
-} 
+}
 
 
 
