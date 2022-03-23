@@ -6,13 +6,16 @@ using namespace std;
 //Cree una función que calcule la raiz cuadrada de un número 
 //dado utilizando alguna función de la libreria math.h
 
-/*int raizNumero(int numero){
+double raizCuadrada = 0;
+int raizNumero(){
 
-return raizCuadrada = sqrt(4);
+    double numero = 4;
+    raizCuadrada = sqrt(numero);
+return raizCuadrada;
 
-}*/
+}
 
-int main(int argc, char const *argv[])
+/*int main(int argc, char const *argv[])
 {
    double raizCuadrada =0;
    double numero = 4;
@@ -20,8 +23,8 @@ int main(int argc, char const *argv[])
    raizCuadrada = sqrt(numero);
    cout<<"La Raiz Cuadrada de "<< numero <<" es: "<<raizCuadrada;
 
-    return 0;
-}
+    return 0; 
+} */
 
 
 
