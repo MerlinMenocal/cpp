@@ -25,7 +25,10 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
    double raizCuadrada =0;
-   double numero = 4;
+   double numero = 0;
+
+   cout<<"Ingrese un Numero: ";
+   cin>>numero;
 
    raizCuadrada = sqrt(numero);
    cout<<"La Raiz Cuadrada de "<< numero <<" es: "<<raizCuadrada;
