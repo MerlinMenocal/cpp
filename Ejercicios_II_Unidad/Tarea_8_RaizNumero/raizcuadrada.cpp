@@ -7,28 +7,22 @@ using namespace std;
 //dado utilizando alguna función de la libreria math.h
 
 
-double raizCuadrada = 0;
-double raizNumero(double numero){
+// double raizCuadrada = 0;
+// double raizNumero(double numero){
 
-    //double numero = 4;
-    //raizCuadrada = sqrt(numero);
-    cout<<"Ingrese un Numero: "<<endl;
-    cin>>numero;
+//     //double numero = 4;
+//     //raizCuadrada = sqrt(numero);
+//     cout<<"Ingrese un Numero: "<<endl;
+//     cin>>numero;
 
 
-return raizCuadrada = sqrt(numero);
-cout<<"la Raiz Cuadrada es: "<<raizCuadrada;
+// return raizCuadrada = sqrt(numero);
+// cout<<"la Raiz Cuadrada es: "<<raizCuadrada;
 
-}
+// }
+
 
 int main(int argc, char const *argv[])
-{
-    /* code */
-    return 0;
-}
-
-
-/*int main(int argc, char const *argv[])
 {
    double raizCuadrada =0;
    double numero = 4;
@@ -37,7 +31,7 @@ int main(int argc, char const *argv[])
    cout<<"La Raiz Cuadrada de "<< numero <<" es: "<<raizCuadrada;
 
     return 0; 
-} */
+} 
 
 
 
