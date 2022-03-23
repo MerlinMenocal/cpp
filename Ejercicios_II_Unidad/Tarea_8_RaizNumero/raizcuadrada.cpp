@@ -24,7 +24,6 @@ int main(int argc, char const *argv[])
 return 0; 
 } 
 
-
 double calculoRaiz(double numero){
  
     raizCuadrada = sqrt(numero);
