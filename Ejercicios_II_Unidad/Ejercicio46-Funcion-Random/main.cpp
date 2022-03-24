@@ -14,9 +14,10 @@ int main(int argc, char const *argv[])
 
     //genera un numero entre 1 y 10
     numero = rand() % 10 + 1;
-    cout<<"Primer numero al Azar"<<numero;
+    cout<<"Primer numero al Azar: "<<numero;
+    cout<<endl;
     
     numero = rand() % 10 + 1;
-    cout<<"Segundo numero al Azar"<<numero;
+    cout<<"Segundo numero al Azar: "<<numero;
     return 0;
 }
