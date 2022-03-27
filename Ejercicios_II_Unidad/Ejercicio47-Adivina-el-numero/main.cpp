@@ -33,6 +33,10 @@ int main(int argc, char const *argv[])
         }
         
     } while (numeroSecreto != miNumero);
+
+        cout<<endl;
+        cout<<endl;
+        cout<<"Adivinastes!";
     
     return 0;
 }
