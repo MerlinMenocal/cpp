@@ -35,8 +35,9 @@ int main(int argc, char const *argv[])
             {
              cout<<"El numero Secreto puede ser Mayor!"<<endl;   
             }
-           contador ++ ; 
         }
+        
+        contador ++ ; 
         
     } while (numeroSecreto != miNumero);
 
