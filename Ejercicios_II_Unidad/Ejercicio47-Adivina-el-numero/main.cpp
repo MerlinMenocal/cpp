@@ -32,7 +32,16 @@ int main(int argc, char const *argv[])
              cout<<"El numero Secreto puede ser Mayor!"<<endl;   
             }
         }
-        
+        while (true)
+            {
+                contador +1 ;
+                if(contador ==3)
+                {
+                cout<<"Lo siento, has fallado 3 veces. "<<endl;
+                cout<<"El juego ha terminado!";
+                break;
+                }
+            }
     } 
      
     while (numeroSecreto != miNumero);
