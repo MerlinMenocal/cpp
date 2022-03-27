@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     srand(time(NULL));
 
     //Generar un numero entre 1 y 10
-    numeroSecreto = rand()  % 15 + 1 ;
+    numeroSecreto = rand()  % 10 + 1 ;
 
     do
     {
@@ -32,8 +32,7 @@ int main(int argc, char const *argv[])
             }
         }
        //contador ++; 
-    } 
-     
+    }   
     while (numeroSecreto != miNumero);
         cout<<endl;
         cout<<endl;
