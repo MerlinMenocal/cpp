@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 {
     int numeroSecreto = 0;
     int miNumero = 0;
-    int contador = 0;
+    //int contador = 0;
 
     //inicializa el numero random
     srand(time(NULL));
@@ -35,7 +35,6 @@ int main(int argc, char const *argv[])
     } 
      
     while (numeroSecreto != miNumero);
-
         cout<<endl;
         cout<<endl;
         cout<<"Adivinastes!";
