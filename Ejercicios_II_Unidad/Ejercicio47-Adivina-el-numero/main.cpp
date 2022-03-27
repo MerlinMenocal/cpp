@@ -23,11 +23,11 @@ int main(int argc, char const *argv[])
 
         if (numeroSecreto < miNumero)
         {
-            cout<<"El numero Secreto puede ser Mayor!"<<endl;
+            cout<<"El numero Secreto puede ser Menor!"<<endl;
         }else{
             if (numeroSecreto > miNumero)
             {
-             cout<<"El numero Secreto puede ser Menor!"<<endl;   
+             cout<<"El numero Secreto puede ser Mayor!"<<endl;   
             }
             
         }
