@@ -31,7 +31,7 @@ int main(int argc, char const *argv[])
              cout<<"El numero Secreto puede ser Mayor!"<<endl;   
             }
         }
-       contador ++; 
+       //contador ++; 
     } 
      
     while (numeroSecreto != miNumero);
@@ -41,16 +41,16 @@ int main(int argc, char const *argv[])
         cout<<"Adivinastes!";
         cout<<endl;
 
-        while (true)
-            {
+        // while (true)
+        //     {
 
-                if(contador ==3)
-                {
-                cout<<"Lo siento, has fallado 3 veces. "<<endl;
-                cout<<"El juego ha terminado!";
-                break;
-                }
-            }
+        //         if(contador ==3)
+        //         {
+        //         cout<<"Lo siento, has fallado 3 veces. "<<endl;
+        //         cout<<"El juego ha terminado!";
+        //         break;
+        //         }
+        //     }
 
     return 0;
 }
