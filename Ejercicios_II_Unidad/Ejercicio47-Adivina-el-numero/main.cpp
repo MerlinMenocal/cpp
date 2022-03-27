@@ -17,7 +17,15 @@ int main(int argc, char const *argv[])
     //Generar un numero entre 1 y 10
     numeroSecreto = rand()  % 15 + 1 ;
 
-    
+    while (true)
+            {
+                if(contador ==3)
+                {
+                cout<<"Lo siento, has fallado 3 veces. "<<endl;
+                cout<<"El juego ha terminado!";
+                break;
+                }
+            }
     do
     {
         cout<<"Adivina el numero (1 a 10):";
@@ -32,16 +40,7 @@ int main(int argc, char const *argv[])
              cout<<"El numero Secreto puede ser Mayor!"<<endl;   
             }
         }
-        while (true)
-            {
-                contador +1 ;
-                if(contador ==3)
-                {
-                cout<<"Lo siento, has fallado 3 veces. "<<endl;
-                cout<<"El juego ha terminado!";
-                break;
-                }
-            }
+        contador +1 ;
     } 
      
     while (numeroSecreto != miNumero);
