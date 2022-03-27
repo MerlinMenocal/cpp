@@ -37,6 +37,7 @@ int main(int argc, char const *argv[])
         cout<<endl;
         cout<<endl;
         cout<<"Adivinastes!";
+        cout<<endl;
     
     return 0;
 }
