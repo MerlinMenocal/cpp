@@ -20,6 +20,11 @@ int main(int argc, char const *argv[])
     
     do
     {
+         if (contador >= 3)
+    {
+        cout<<"Lo siento, has fallado 3 veces. "<<endl;
+        cout<<"El juego ha terminado!";
+    }
         cout<<"Adivina el numero (1 a 10):";
         cin>>miNumero;
 
@@ -42,11 +47,7 @@ int main(int argc, char const *argv[])
         cout<<"Adivinastes!";
         cout<<endl;
 
-        if (contador >= 3)
-    {
-        cout<<"Lo siento, has fallado 3 veces. "<<endl;
-        cout<<"El juego ha terminado!";
-    }
+       
     
     return 0;
 }
