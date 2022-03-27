@@ -36,16 +36,6 @@ int main(int argc, char const *argv[])
     } 
      
     while (numeroSecreto != miNumero);
-        while (true)
-            {
-                contador +1 ;
-                if(contador ==3)
-                {
-                cout<<"Lo siento, has fallado 3 veces. "<<endl;
-                cout<<"El juego ha terminado!";
-                break;
-                }
-            }
 
         cout<<endl;
         cout<<endl;
