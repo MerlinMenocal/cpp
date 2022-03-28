@@ -14,7 +14,7 @@ int  fib(int n)
 
 int main(int argc, char const *argv[])
 {
-    cout<<fib(9);
+    cout<<fib(10);
     cout<<endl;
     return 0;
 }
