@@ -8,7 +8,7 @@ using namespace std;
 
 int dado1;
 int dado2;
-string jugar= "lanzar";
+string jugar= "";
 
 int main(int argc, char const *argv[])
 {
@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
         cout<<"----------------------"<<endl;
         cout<<"Ganas cuando: Ambos dados caen en: 6 y 5||5 y 5||3 y 3"<<endl;
         cout<<"Pierdes cuando: Ambos dados caen en: 4 y 4||2 y 2||1 y 2||1 y 1"<<endl<<endl;
-        cout<<"Escribe (lanzar) para comenzar";
+        cout<<"Presiona Enter para comenzar: ";
         cin>>jugar;
         system("cls");
 
@@ -33,13 +33,13 @@ int main(int argc, char const *argv[])
         cout<<"Dado 2: "<<dado2<<endl;
         if (dado1 ==6 && dado2 ==5 or dado1==5 && dado2==5 or dado1==3 && dado2==3)
         {
-            cout<<"felicidades, sacastes lados ganadores!"<<endl;
+            cout<<"Felicidades, sacastes lados ganadores!"<<endl;
             break;
         }else
             {
                 if (dado1==4 && dado2==4 or dado1==2 && dado2==2 or dado1==1 && dado2==2 or dado1==1 && dado2==1)
                 {
-                    cout<<"Lo siento, intentalo de nuevo!"<<endl;
+                    cout<<"Has tenido una caida!"<<endl;
                     break;
                 }
             }
