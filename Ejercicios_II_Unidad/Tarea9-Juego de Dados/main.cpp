@@ -8,7 +8,7 @@ using namespace std;
 
 int dado1;
 int dado2;
-string jugar="1";
+string jugar="d";
 
 int main(int argc, char const *argv[])
 {
@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
         cout<<"----------------------"<<endl;
         cout<<"Ganas cuando: Ambos dados caen en: 6 y 5||5 y 5||3 y 3"<<endl;
         cout<<"Pierdes cuando: Ambos dados caen en: 4 y 4||2 y 2||1 y 2||1 y 1"<<endl<<endl;
-        cout<<"Presiona 1 para comenzar: ";
+        cout<<"Presiona la tecla (d) para comenzar: ";
         cin>>jugar;
         system("cls");
 
