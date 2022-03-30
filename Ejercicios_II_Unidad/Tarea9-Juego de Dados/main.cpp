@@ -16,9 +16,8 @@ int main(int argc, char const *argv[])
     while (true)
     {
         cout<<endl;
-        cout<<"               Intrucciones del Juego"<<endl;
-        cout<<"               ----------------------"<<endl;
-        cout<<endl;
+        cout<<"                Intrucciones del Juego"<<endl;
+        cout<<"                ----------------------"<<endl;
         cout<<"Ganas cuando, Ambos dados caen en: 6 y 5||5 y 5||3 y 3"<<endl;
         cout<<"Pierdes cuando, Ambos dados caen en: 4 y 4||2 y 2||1 y 2||1 y 1"<<endl<<endl;
         cout<<"Presiona (1) para comenzar: ";
