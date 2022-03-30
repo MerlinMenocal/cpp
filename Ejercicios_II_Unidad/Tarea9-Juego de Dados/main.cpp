@@ -8,7 +8,7 @@ using namespace std;
 
 int dado1;
 int dado2;
-string jugar="d";
+string jugar;
 
 int main(int argc, char const *argv[])
 {
