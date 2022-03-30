@@ -39,7 +39,7 @@ int main(int argc, char const *argv[])
             {
                 if (dado1==4 && dado2==4 or dado1==2 && dado2==2 or dado1==1 && dado2==2 or dado1==1 && dado2==1)
                 {
-                    cout<<"Has tenido una caida!"<<endl;
+                    cout<<"Has tenido una caida, el Juego termino!"<<endl;
                     break;
                 }
             }
