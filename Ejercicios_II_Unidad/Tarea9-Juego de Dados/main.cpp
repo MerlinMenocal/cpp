@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
         cout<<"Pierdes cuando: Ambos dados caen en: 4 y 4||2 y 2||1 y 2||1 y 1"<<endl<<endl;
         cout<<"Presiona la tecla (d) para comenzar: ";
         cin>>jugar;
-        //system("cls");
+        system("cls");
 
             for (int i = 0; i <=1; i++)
                 {
