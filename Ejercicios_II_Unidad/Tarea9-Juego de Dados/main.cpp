@@ -33,17 +33,15 @@ int main(int argc, char const *argv[])
         cout<<"Dado 2: "<<dado2<<endl;
         if (dado1 ==6 && dado2 ==5 or dado1==5 && dado2==5 or dado1==3 && dado2==3)
         {
-            cout<<"Has Ganado jugador 1!"<<endl;
+            cout<<"felicidades, sacastes lados ganadores!"<<endl;
             break;
         }else
             {
                 if (dado1==4 && dado2==4 or dado1==2 && dado2==2 or dado1==1 && dado2==2 or dado1==1 && dado2==1)
                 {
-                    cout<<"Has ganado jugador 2!"<<endl;
+                    cout<<"Lo siento, intentalo de nuevo!"<<endl;
                     break;
                 }
-                
-
             }
         cout<<"Lanza en Dado nuevamente!"<<endl;
         system("pause");
