@@ -10,6 +10,7 @@ using namespace std;
 #define IZQUIERDA 75
 #define ABAJO 80
 #define DERECHA 77
+#define ESC 27
 
 int Puntos;
 int cuerpo[200][2];
@@ -23,9 +24,8 @@ int d;
 int dif;
 double tiempo;
 
-
 void inicializarArreglo() {
-for(int i = 0; i < 2000; i++) {
+for(int i = 0; i < 200; i++) {
 // inicializa los valores de cuerpo
 cuerpo[i][0]= 0;
 cuerpo[i][1] = 0;
@@ -87,6 +87,7 @@ if (n==tam){n=1;}
 dibujarcuerpo();
 }
 
+
 void borrarcuerpo(){
 gotoxy(cuerpo[n][0],cuerpo[n][1]); cout<<" ";
 guardarposicion();
@@ -109,6 +110,8 @@ case DERECHA:
 if (dir != 4){dir=3;}
 break;
 }
+}
+
 }
 
 void comida(){
@@ -156,7 +159,6 @@ yyc=(rand()%19)+4;
 }
 }
 
-
 void proceso(char &tecla, int &puntos){
 Puntos = puntos;
 borrarcuerpo();
@@ -170,5 +172,4 @@ if (dir==3){x++;}
 if (dir==4){x--;}
 Sleep(dif);
 }
-
 
