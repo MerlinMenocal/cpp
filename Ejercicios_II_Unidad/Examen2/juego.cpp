@@ -1,4 +1,3 @@
-
 #include<iostream>
 #include<windows.h>
 #include<conio.h>
@@ -11,7 +10,6 @@ using namespace std;
 #define IZQUIERDA 75
 #define ABAJO 80
 #define DERECHA 77
-#define ESC 27
 
 int Puntos;
 int cuerpo[200][2];
@@ -35,7 +33,7 @@ cuerpo[i][1] = 0;
 }
 
 void dificultad() {
-cout<<"Snake \n elija una dificultad para alterar la velocidad \n 1: facil \n 2: media"<<endl;
+cout<<"Snake \n Elija una dificultad para alterar la velocidad \n 1: facil \n 2: media"<<endl;
 cin>>d;
 switch(d){
 case 1:
@@ -77,7 +75,7 @@ gotoxy(77,23);cout<<(char)188;
 
 void dibujarcuerpo(){
 for(int i=1; i<tam;i++){
-gotoxy(cuerpo[i][0],cuerpo[i][1]); cout<<"O";
+gotoxy(cuerpo[i][0],cuerpo[i][1]); cout<<"@";
 }
 }
 
@@ -88,7 +86,6 @@ n++;
 if (n==tam){n=1;}
 dibujarcuerpo();
 }
-
 
 void borrarcuerpo(){
 gotoxy(cuerpo[n][0],cuerpo[n][1]); cout<<" ";
@@ -112,8 +109,6 @@ case DERECHA:
 if (dir != 4){dir=3;}
 break;
 }
-}
-
 }
 
 void comida(){
@@ -174,6 +169,6 @@ if (dir==3){x++;}
 if (dir==4){x--;}
 Sleep(dif);
 }
-
+}
 
 
