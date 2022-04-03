@@ -1,0 +1,31 @@
+# Project: examen2
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = Examen2/main.o juego.o
+LINKOBJ  = Examen2/main.o juego.o
+LIBS     = -static-libgcc -g3
+INCS     = 
+CXXINCS  = 
+BIN      = examen2.exe
+CXXFLAGS = $(CXXINCS) -ansi -g3
+CFLAGS   = $(INCS) -ansi -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Examen2/main.o: Examen2/main.cpp
+	$(CPP) -c Examen2/main.cpp -o Examen2/main.o $(CXXFLAGS)
+
+juego.o: juego.cpp
+	$(CPP) -c juego.cpp -o juego.o $(CXXFLAGS)
