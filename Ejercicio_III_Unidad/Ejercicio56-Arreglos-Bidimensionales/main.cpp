@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    string nombres[2][2];
+    string nombres[3][2];
 
     nombres[0][0]= "Juan";
     nombres[0][1]= "Perez";
