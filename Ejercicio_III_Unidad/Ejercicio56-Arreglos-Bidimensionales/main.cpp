@@ -20,9 +20,9 @@ int main(int argc, char const *argv[])
         //cout<<nombres[i][0]<<" "<<nombres[i][1]<<endl;
         for (int j = 0; j<2; j++)
         {
-            cout<<nombres[i][j]<<endl;
+            cout<<nombres[i][j];
         }
-        
+        cout<<endl;
 
     }
     
