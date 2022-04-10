@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
         {(rand() % 10 + 1), (rand() % 10 + 1)},
         {(rand() % 15 + 1), (rand() % 15 + 1)},
         {(rand() % 20 + 1), (rand() % 20 + 1)},
-        {(rand() % 25 + 1), (rand() % 25 + 1)},
+        {(rand() % 25 + 1), (rand() % 25 + 1)}
     };
 
 
