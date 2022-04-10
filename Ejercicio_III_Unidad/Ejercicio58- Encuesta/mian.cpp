@@ -1,0 +1,45 @@
+#include<iostream>
+
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    string alumnos [3];
+    string encuesta [3][2]=
+    {
+        {"Llevara clases el proximo periodo?", ""},
+        {"Matriculara L2?", ""},
+        {"Matriculara L2 con el Lic. Bily?", ""}
+    };
+
+    int respuestas[3]={0, 0, 0};
+
+    cout <<"Conteste la encuesta con s o n" <<endl <<endl;
+
+    for (int i = 0; i <3; i++)
+    {
+        cout<<"Ingrese su nombre: ";
+        cin>>alumnos[i];
+        cout<<endl;
+
+        for (int j = 0; j <3; i++)
+        {
+            cout<<encuesta[j][0];
+            cin>>encuesta[j][1];
+
+            if (encuesta[j][1]=="s")
+            {
+                respuestas [j]++;
+            }
+            
+        }
+        cout<<endl;
+    }
+
+    cout<<"Resumen"<<endl;
+    cout<<"Respuesta Pregunta 1"<<respuestas[0];
+    cout<<"Respuesta Pregunta 1"<<respuestas[1];
+    cout<<"Respuesta Pregunta 1"<<respuestas[2];
+    
+    return 0;
+}
