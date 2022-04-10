@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     for (int i = 0; i <3; i++)
     {
         //cout<<nombres[i][0]<<" "<<nombres[i][1]<<endl;
-        for (int j = 0; j<2; j++)
+        for (int j = 0; j<3; j++)
         {
             cout<<nombres[i][j]<<" ";
         }
