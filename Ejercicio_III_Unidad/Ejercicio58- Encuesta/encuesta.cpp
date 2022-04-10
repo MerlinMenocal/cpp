@@ -22,9 +22,9 @@ int main(int argc, char const *argv[])
         cin>>alumnos[i];
         cout<<endl;
 
-        for (int j = 0; j <3; i++)
+        for (int j = 0; j <3; j++)
         {
-            cout<<encuesta[j][0];
+            cout<<encuesta[j][0]<<": ";
             cin>>encuesta[j][1];
 
             if (encuesta[j][1]=="s")
