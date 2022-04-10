@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 
     int respuestas[3]={0, 0, 0};
 
-    cout <<"Conteste la encuesta con s o n" <<endl <<endl;
+    cout<<"Conteste la encuesta con s o n" <<endl <<endl;
 
     for (int i = 0; i <3; i++)
     {
