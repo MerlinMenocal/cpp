@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     };
 
 
-    int suma[5]={0, 0, 0, 0, 0};
+    //int suma[5]={0, 0, 0, 0, 0};
 
     for (int i = 0; i <5; i++)
     {
