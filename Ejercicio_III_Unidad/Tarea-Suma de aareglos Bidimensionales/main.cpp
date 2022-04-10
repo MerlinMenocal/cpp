@@ -11,7 +11,10 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    int sumarArreglo[5][5]{
+    int filas = 5;
+    int columnas = 5;
+
+    int sumarArreglo[filas][columnas]{
         {(rand() % 5 + 1), (rand() % 5 + 1)},
         {(rand() % 10 + 1), (rand() % 10 + 1)},
         {(rand() % 15 + 1), (rand() % 15 + 1)},
@@ -22,9 +25,9 @@ int main(int argc, char const *argv[])
 
     //int suma[5]={0, 0, 0, 0, 0};
 
-    for (int i = 0; i <5; i++)
+    for (int i = 0; i <filas; i++)
     {
-        for (int c = 0; c <5; c++)
+        for (int c = 0; c <columnas; c++)
         {
             cout<<sumarArreglo[i][c]<<endl;
             //cout<<"Total Suma: ";
