@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
         for (int c = 0; c <5; c++)
         {
             cout<<sumarArreglo[i][c]<<endl;
-            cout<<"Total Suma: "<<suma[0];
+            cout<<"Total Suma: ";
         }
         
     }
