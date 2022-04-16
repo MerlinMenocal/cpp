@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
     if (respuesta == true)
     {
         //cout<<"Bienvenido al sistema";
-        menu();
+        void menu();
     }
     
     return 0;
