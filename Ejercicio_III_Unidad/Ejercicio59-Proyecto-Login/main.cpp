@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 
     if (respuesta == true)
     {
-        cout<<"Buenvenido al sistema";
+        cout<<"Bienvenido al sistema";
     }
     
     return 0;
