@@ -18,15 +18,15 @@ int main(int argc, char const *argv[])
 
     srand(time(NULL));
     int sumarArreglo[filas][columnas]{
-        {(rand() % 5 + 1), (rand() % 5 + 1)},
-        {(rand() % 10 + 1), (rand() % 10 + 1)},
-        {(rand() % 15 + 1), (rand() % 15 + 1)},
-        {(rand() % 20 + 1), (rand() % 20 + 1)},
-        {(rand() % 25 + 1), (rand() % 25 + 1)}
+        //        1                 2                3                4                5         
+        {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
+        {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
+        {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
+        {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
+        {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
+        
     };
 
-
-    //int suma[5]={0, 0, 0, 0, 0};
 
     for (int i = 0; i <filas; i++)
     {
