@@ -33,7 +33,7 @@ int main(int argc, char const *argv[])
     {
         for (int c = 0; c <columnas; c++)
         {
-            cout<<sumarArreglo[i][c];
+            //cout<<sumarArreglo[i][c];
             total = i + c;
 
             cout<<"Total Suma: "<<total;
