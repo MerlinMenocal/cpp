@@ -6,6 +6,8 @@
 // 3) Sumar todos los valores del arreglo bidimensional y mostrar un mensaje "Total Suma:".
 
 #include<iostream>
+#include <stdlib.h>
+#include <time.h>
 
 using namespace std;
 
@@ -14,6 +16,7 @@ int main(int argc, char const *argv[])
     int filas = 5;
     int columnas = 5;
 
+    srand(time(NULL));
     int sumarArreglo[filas][columnas]{
         {(rand() % 5 + 1), (rand() % 5 + 1)},
         {(rand() % 10 + 1), (rand() % 10 + 1)},
