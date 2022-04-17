@@ -1,4 +1,5 @@
 #include<iostream>
+#include "clientes.h"
 
 using namespace std;
 
@@ -29,6 +30,13 @@ void menu(){
              //rentar();
             system("pause");
             break;
+        case 2:{
+            mostrarClientes();
+            break;
+        }
+            
+        
+
         case 5:
             salir = true;
         default:
