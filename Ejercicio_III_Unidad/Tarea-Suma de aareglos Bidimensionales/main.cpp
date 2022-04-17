@@ -31,12 +31,13 @@ int main(int argc, char const *argv[])
 
     for (int i = 0; i <filas; i++)
     {
+        total += filas;
         for (int c = 0; c <columnas; c++)
         {
             //cout<<sumarArreglo[i][c];
-            //total = i + c;
+            total += columnas;
 
-            cout<<"Total Suma: "<<filas + columnas;
+            cout<<"Total Suma: "<<total;
         }
         
     }
