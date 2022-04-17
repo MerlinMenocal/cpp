@@ -49,7 +49,7 @@ int main(int argc, char const *argv[])
             //cout<<sumarArreglo[i][c];
         }
         
-        //resultado= resultado + sumarArreglo[filas][columnas];
+        resultado= resultado + sumarArreglo[filas][columnas];
         columnas ++;
         filas =0;
     }
