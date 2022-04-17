@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 {
     int filas = 5;
     int columnas = 5;
-    double resultado = 0;
+    int resultado = 0;
      //int total2 = 0;
 
     srand(time(NULL));
