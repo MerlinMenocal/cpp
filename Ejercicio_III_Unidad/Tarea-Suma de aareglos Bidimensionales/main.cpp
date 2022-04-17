@@ -15,6 +15,7 @@ int main(int argc, char const *argv[])
 {
     int filas = 5;
     int columnas = 5;
+    int total = 0;
 
     srand(time(NULL));
     int sumarArreglo[filas][columnas]{
@@ -33,7 +34,9 @@ int main(int argc, char const *argv[])
         for (int c = 0; c <columnas; c++)
         {
             cout<<sumarArreglo[i][c];
-            //cout<<"Total Suma: ";
+            total = i + c;
+
+            cout<<"Total Suma: "<<total;
         }
         
     }
