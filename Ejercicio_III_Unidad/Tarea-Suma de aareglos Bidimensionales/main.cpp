@@ -52,7 +52,7 @@ for (int filas = 0; filas < 5; ++filas)
     {
         sumarArreglo[5][columnas] += sumarArreglo[filas][columnas];
         //cout<<endl;
-        sumarArreglo[filas][5] += sumarArreglo[filas][columnas];
+        sumarArreglo[5][filas] += sumarArreglo[filas][columnas];
     }
 }
 
