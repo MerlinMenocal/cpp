@@ -53,8 +53,10 @@ int main(int argc, char const *argv[])
     //     columnas ++;
     //     filas =0;
     // }
-
-    cout<<"Total Suma: "<<sumarArreglo[filas][columnas];
+    cout<<"Fila"<< filas <<"columnas"<<columnas<<endl;
+    cout<<sumarArreglo[filas][columnas];
+    //"Total Suma: "<<
+    cout<<endl;
     
     
         
