@@ -63,10 +63,11 @@ for (int filas = 0; filas <5; ++filas)
     {
         printf("%d ", sumarArreglo[filas][columnas]);
         //cout<<sumarArreglo[filas][columnas];
+        cout<<"===========";
+    cout<<"Total Suma: ";
     }
     printf("\n");
-    cout<<"===========";
-    cout<<"Total Suma: ";
+    
 
 }
 
