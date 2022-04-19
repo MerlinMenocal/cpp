@@ -32,9 +32,9 @@ int main(int argc, char const *argv[])
   //recorre las filas
 //   while (filas ==5)
 //   {
-      for (int i = 0; i <filas; i++)
+      for (int filas = 0; filas <5; filas++)
     {
-        total1 += filas;
+        //total1 += filas;
     }
 //        resultado= resultado + sumarArreglo[filas][columnas];
 //        filas ++;
@@ -44,7 +44,7 @@ int main(int argc, char const *argv[])
     //recorre las columnas
     // while (columnas ==5)
     // {
-        for (int c = 0; c <columnas; c++)
+        for (int columnas = 0; columnas <5; columnas++)
         {
             //cout<<sumarArreglo[i][c];
         }
