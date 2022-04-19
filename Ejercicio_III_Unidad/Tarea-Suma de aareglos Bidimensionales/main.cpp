@@ -52,7 +52,7 @@ for (int filas = 0; filas < 5; ++filas)
     {
         sumarArreglo[5][columnas] += sumarArreglo[filas][columnas];
         //cout<<endl;
-        //sumarArreglo[filas][5] += sumarArreglo[filas][columnas]<<endl;
+        sumarArreglo[filas][5] += sumarArreglo[filas][columnas];
     }
 }
 
@@ -63,8 +63,8 @@ for (int filas = 0; filas <5; ++filas)
     {
         printf("%d ", sumarArreglo[filas][columnas]);
         //cout<<sumarArreglo[filas][columnas];
-        cout<<"===========";
-    cout<<"Total Suma: ";
+    //     cout<<"===========";
+    // cout<<"Total Suma: ";
     }
     printf("\n");
     
