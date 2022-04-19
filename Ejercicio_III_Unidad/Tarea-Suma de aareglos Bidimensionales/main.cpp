@@ -108,6 +108,8 @@ for (int columnas = 0; columnas <5; columnas++)
     cout<<endl;
 }
 
+cout<<"Total Suma: "<<sumaFila + sumaFila;
+
     return 0;
 }
 
