@@ -108,7 +108,7 @@ for (int columnas = 0; columnas <5; columnas++)
     cout<<endl;
 }
 
-cout<<"Total Suma: "<<filas + columnas;
+cout<<"Total Suma: "<<((sumaFila * filas) + (sumaColumna * columnas));
 
     return 0;
 }
