@@ -36,7 +36,7 @@ int main(int argc, char const *argv[])
         //recorre las columnas
         for (int columnas = 0; columnas <5; columnas++)
         {
-            cout<<"Fila "<< filas <<"columnas "<<columnas<<endl;
+            cout<<"Fila "<< filas <<" columnas "<<columnas<<endl;
             cout<<sumarArreglo[filas][columnas];
             //"Total Suma: "<<
             cout<<endl;
