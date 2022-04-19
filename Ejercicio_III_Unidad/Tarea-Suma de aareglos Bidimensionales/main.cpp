@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
             // {rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1},
             // {rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1},
             // {rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1}
-            filas = rand() % 100 + 1,
+            filas = rand() % 5 + 1,
             columnas = rand() % 5 + 1
                
     };
