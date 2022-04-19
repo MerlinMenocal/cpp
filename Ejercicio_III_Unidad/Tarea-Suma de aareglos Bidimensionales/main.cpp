@@ -18,6 +18,8 @@ int main(int argc, char const *argv[])
     //int resultado = 0;
     int sumaFila = 0;
     int sumaColumna = 0;
+    int resultado1 =0;
+    int resultado2 = 0;
 
     srand(time(NULL));
     int sumarArreglo[filas][columnas]{
@@ -89,7 +91,7 @@ for (int filas = 0; filas <5; filas++)
     sumaFila = 0;
     for (int columnas = 0; columnas <5; columnas++)
     {
-        sumaFila +=sumarArreglo[filas][columnas];
+        resultado1= sumaFila +=sumarArreglo[filas][columnas];
     }
     cout<<"Suma de la fila es:"<<filas<<"--->" << sumaFila;
     cout<<endl;
@@ -102,13 +104,13 @@ for (int columnas = 0; columnas <5; columnas++)
     sumaColumna = 0;
     for (int filas = 0; filas <5; filas++)
     {
-        sumaColumna += sumarArreglo[filas][columnas];
+        resultado2 =sumaColumna += sumarArreglo[filas][columnas];
     }
     cout<<"Suma de la columna es:"<<columnas<<"--->" << sumaColumna;
     cout<<endl;
 }
 
-cout<<"Total Suma: "<<sumaFila + sumaColumna;
+cout<<"Total Suma: "<<resultado1 + resultado2;
 
     return 0;
 }
