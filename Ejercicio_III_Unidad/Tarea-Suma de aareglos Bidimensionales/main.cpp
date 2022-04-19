@@ -29,23 +29,45 @@ int main(int argc, char const *argv[])
         
     };
 
-  //recorre las filas
+//   //recorre las filas
 
-      for (int filas = 0; filas <5; filas++)
-    {
-        //recorre las columnas
-        for (int columnas = 0; columnas <5; columnas++)
-        {
-            cout<<"Fila "<< filas <<" columnas "<<columnas<<endl;
-            cout<<sumarArreglo[filas][columnas];
-            //"Total Suma: "<<
-            cout<<endl;
+//       for (int filas = 0; filas <5; filas++)
+//     {
+//         //recorre las columnas
+//         for (int columnas = 0; columnas <5; columnas++)
+//         {
+//             cout<<"Fila "<< filas <<" columnas "<<columnas<<endl;
+//             cout<<sumarArreglo[filas][columnas];
+//             //"Total Suma: "<<
+//             cout<<endl;
             
 
-        }
-    }
+//         }
+//     }
   
-    
+// Suma los elementos en la ultima fila/columna
+for (int filas = 0; filas < 5; ++filas)
+{
+    for (int columnas = 0; columnas < 5; ++columnas)
+    {
+        sumarArreglo[5][columnas] += sumarArreglo[filas][columnas];
+        sumarArreglo[filas][5] += sumarArreglo[filas][columnas];
+    }
+}
+
+// Mostrar resultados
+for (int filas = 0; filas <5; ++filas)
+{
+    for (int columnas = 0; columnas < 5; ++columnas)
+    {
+        printf("%d ", sumarArreglo[filas][columnas]);
+    }
+    printf("\n");
+}
+
+
+
+
     
         
         
