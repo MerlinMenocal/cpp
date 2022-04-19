@@ -30,33 +30,26 @@ int main(int argc, char const *argv[])
     };
 
   //recorre las filas
-//   while (filas ==5)
-//   {
+
       for (int filas = 0; filas <5; filas++)
     {
-        //total1 += filas;
-    }
-//        resultado= resultado + sumarArreglo[filas][columnas];
-//        filas ++;
-//   }
-  
-    
-    //recorre las columnas
-    // while (columnas ==5)
-    // {
+        //recorre las columnas
         for (int columnas = 0; columnas <5; columnas++)
         {
-            //cout<<sumarArreglo[i][c];
+            cout<<"Fila"<< filas <<"columnas"<<columnas<<endl;
+            cout<<sumarArreglo[filas][columnas];
+            //"Total Suma: "<<
+            cout<<endl;
+            
+
         }
+    }
+  
+    
+    
         
-    //     resultado= resultado + sumarArreglo[filas][columnas];
-    //     columnas ++;
-    //     filas =0;
-    // }
-    cout<<"Fila"<< filas <<"columnas"<<columnas<<endl;
-    cout<<sumarArreglo[filas][columnas];
-    //"Total Suma: "<<
-    cout<<endl;
+        
+   
     
     
         
