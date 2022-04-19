@@ -64,7 +64,7 @@ for (int filas = 0; filas <5; ++filas)
         printf("%d ", sumarArreglo[filas][columnas]);
         //cout<<sumarArreglo[filas][columnas];
     }
-    //printf("\n");
+    printf("\n");
 }
 
 
