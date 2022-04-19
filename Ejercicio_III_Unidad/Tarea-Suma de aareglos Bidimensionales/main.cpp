@@ -61,7 +61,7 @@ for (int filas = 0; filas <5; ++filas)
 {
     for (int columnas = 0; columnas < 5; ++columnas)
     {
-        printf("%d ", sumarArreglo[filas][columnas]);
+        printf("%d ","%s", sumarArreglo[filas][columnas]);
         //cout<<sumarArreglo[filas][columnas];
     }
     printf("\n");
