@@ -21,13 +21,12 @@ int main(int argc, char const *argv[])
 
     srand(time(NULL));
     int sumarArreglo[filas][columnas]{
-        //        0                 1                2                3                4         
-        {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
-        {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
-        {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
-        {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
-        {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
-        
+        //          0               1               2               3               4         
+        {rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1},
+        {rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1},
+        {rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1},
+        {rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1},
+        {rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1, rand() % 5 + 1}    
     };
 
 //   //recorre las filas
