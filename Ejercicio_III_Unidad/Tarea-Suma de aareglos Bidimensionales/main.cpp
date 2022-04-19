@@ -16,11 +16,10 @@ int main(int argc, char const *argv[])
     int filas = 5;
     int columnas = 5;
     int resultado = 0;
-     int total1 = 0;
 
     srand(time(NULL));
     int sumarArreglo[filas][columnas]{
-        //        1                 2                3                4                5         
+        //        0                 1                2                3                4         
         {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
         {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
         {(rand() % 5 + 1), (rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1),(rand() % 5 + 1)},
@@ -45,32 +44,34 @@ int main(int argc, char const *argv[])
 //         }
 //     }
   
-// // Suma los elementos en la ultima fila/columna
-// for (int filas = 0; filas < 5; ++filas)
-// {
-//     for (int columnas = 0; columnas < 5; ++columnas)
-//     {
-//         sumarArreglo[5][filas] += sumarArreglo[filas][columnas];
-//         sumarArreglo[5][columnas] += sumarArreglo[filas][columnas];
-//         //cout<<endl;
+// Suma los elementos en la ultima fila/columna
+for (int filas = 0; filas < 5; ++filas)
+{
+    resultado += sumarArreglo[5][filas];
+    for (int columnas = 0; columnas < 5; ++columnas)
+    {
+        sumarArreglo[5][filas] += sumarArreglo[filas][columnas];
+        sumarArreglo[5][columnas] += sumarArreglo[filas][columnas];
+        //cout<<endl;
         
-//     }
-// }
+    }
+}
 
-// // Mostrar resultados
-// for (int filas = 0; filas <5; ++filas)
-// {
-//     for (int columnas = 0; columnas < 5; ++columnas)
-//     {
-//         printf("%d ", sumarArreglo[filas][columnas]);
-//         //cout<<sumarArreglo[filas][columnas];
-//     //     cout<<"===========";
-//     // cout<<"Total Suma: ";
-//     }
-//     printf("\n");
+// Mostrar resultados
+for (int filas = 0; filas <5; ++filas)
+{
+    for (int columnas = 0; columnas < 5; ++columnas)
+    {
+        printf("%d ", sumarArreglo[filas][columnas]);
+        //cout<<sumarArreglo[filas][columnas];
+    //     cout<<"===========";
+    // cout<<"Total Suma: ";
+    }
+    printf("\n");
+    cout<<"La suma Total es: "<<resultado;
     
 
-// }
+}
 
     return 0;
 }
