@@ -51,13 +51,9 @@ int main(int argc, char const *argv[])
         }
         //muestra el resultado de sumar cada fila
         //cout<<"Suma de la fila :"<<filas<<"--->" << sumaFila;
-        cout<<endl;
-
         /* Acumulador del total de las filas*/
         total1 += sumaFila;
     }
- 
- //cout<<endl;
  
     //suma de las columnas
     for (int columnas = 0; columnas <5; columnas++)
