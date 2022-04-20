@@ -1,9 +1,9 @@
-// Objectivo
-// Sumar todos los elementos de un arreglo bidimensional
-// Requerimientos
-// 1) Crear un arreglo bidimensional de 5x5
-// 2) Inicializar cada elemento del arreglo con valores random
-// 3) Sumar todos los valores del arreglo bidimensional y mostrar un mensaje "Total Suma:".
+/* Objectivo
+Sumar todos los elementos de un arreglo bidimensional
+Requerimientos
+1) Crear un arreglo bidimensional de 5x5
+2) Inicializar cada elemento del arreglo con valores random
+3) Sumar todos los valores del arreglo bidimensional y mostrar un mensaje "Total Suma:". */
 
 #include<iostream>
 #include <stdlib.h>
