@@ -93,7 +93,8 @@ for (int filas = 0; filas <5; filas++)
     cout<<"Suma de la fila es:"<<filas<<"--->" << sumaFila;
     cout<<endl;
 }
-
+ 
+ cout<<endl;
 //suma de las columnas
 
 for (int columnas = 0; columnas <5; columnas++)
@@ -104,7 +105,7 @@ for (int columnas = 0; columnas <5; columnas++)
         sumaColumna=sumaColumna + sumarArreglo[filas][columnas];
     }
     cout<<"Suma de la columna es:"<<columnas<<"--->" << sumaColumna;
-    cout<<endl<<endl;
+    cout<<endl;
 }
 
 //cout<<"Total Suma: "<<(sumaFila * columnas) + (sumaColumna * filas);
