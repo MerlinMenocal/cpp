@@ -22,7 +22,8 @@ int main(int argc, char const *argv[])
 
     srand(time(NULL));
     int sumarArreglo[filas][columnas]{
-        //          0               1               2               3               4         
+        //           0                 1                 2                 3                 4
+        //    --------------    --------------    --------------    --------------    --------------
             {(rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1)},
             {(rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1)},
             {(rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1)},
@@ -30,49 +31,52 @@ int main(int argc, char const *argv[])
             {(rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1)}         
     };
 
-for (int filas = 0; filas <5; filas++)
-{
-    for (int columnas = 0; columnas <5; columnas++)
-    {
-        cout<<sumarArreglo[filas][columnas]<<"  ";
-    }
-    cout<<endl; 
-}
-
-//suma de las filas
-for (int filas = 0; filas <5; filas++)
-{
-    sumaFila = 0;
-    for (int columnas = 0; columnas <5; columnas++)
-    {
-        sumaFila= sumaFila + sumarArreglo[filas][columnas];
-    }
-
-    //cout<<"Suma de la fila es:"<<filas<<"--->" << sumaFila;
-    cout<<endl;
-    total1 += sumaFila;
-}
- 
- cout<<endl;
- 
-//suma de las columnas
-
-for (int columnas = 0; columnas <5; columnas++)
-{
-    sumaColumna = 0;
+    //para que muestre la matriz o arreglo
     for (int filas = 0; filas <5; filas++)
     {
-        sumaColumna=sumaColumna + sumarArreglo[filas][columnas];
-        
+        for (int columnas = 0; columnas <5; columnas++)
+        {
+            cout<<sumarArreglo[filas][columnas]<<"  ";
+        }
+        cout<<endl; 
     }
-    //cout<<"Suma de la columna es:"<<columnas<<"--->" << sumaColumna;
-    cout<<endl;
-    total2 += sumaColumna;
-}
 
-cout<<"Total Suma: "<<total1 + total2;
+    //suma de las filas
+    for (int filas = 0; filas <5; filas++)
+    {
+        sumaFila = 0;
+        for (int columnas = 0; columnas <5; columnas++)
+        {
+            sumaFila= sumaFila + sumarArreglo[filas][columnas];
+        }
+        //muestra el resultado de sumar cada fila
+        //cout<<"Suma de la fila :"<<filas<<"--->" << sumaFila;
+        cout<<endl;
 
+        /* Acumulador del total de las filas*/
+        total1 += sumaFila;
+    }
+ 
+ //cout<<endl;
+ 
+    //suma de las columnas
+    for (int columnas = 0; columnas <5; columnas++)
+    {
+        sumaColumna = 0;
+        for (int filas = 0; filas <5; filas++)
+        {
+            sumaColumna=sumaColumna + sumarArreglo[filas][columnas];
+            
+        }
+        //muestra el resultado de sumar cada colunma
+        //cout<<"Suma de la columna es:"<<columnas<<"--->" << sumaColumna;
+        //cout<<endl;
+        /* acumulador de la sumativa de todas las columnas */
+        total2 += sumaColumna;
+    }
 
+ /* SUMA DE FILAS Y COLUMNAS*/
+ cout<<"Total Suma: "<<total1 + total2;
     return 0;
 }
 
