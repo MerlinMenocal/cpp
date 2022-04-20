@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
             {(rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1)},
             {(rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1)},
             {(rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1)}         
-    };
+    }; cout<<endl;
 
     //para que muestre la matriz o arreglo
     for (int filas = 0; filas <5; filas++)
