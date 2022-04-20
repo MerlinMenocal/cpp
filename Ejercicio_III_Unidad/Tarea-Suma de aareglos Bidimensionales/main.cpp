@@ -109,7 +109,13 @@ for (int columnas = 0; columnas <5; columnas++)
 }
 
 //cout<<"Total Suma: "<<(sumaFila * columnas) + (sumaColumna * filas);
-cout<<"Total Suma: "<<(sumaFila * filas++  + sumaColumna);
+//cout<<"Total Suma: "<<(sumaFila * filas  + sumaColumna);
+
+for (int  sumaFila= 0; sumaFila <5; sumaFila++)
+{
+    cout<<"suma total filas"<<sumaFila;
+}
+
 
     return 0;
 }
