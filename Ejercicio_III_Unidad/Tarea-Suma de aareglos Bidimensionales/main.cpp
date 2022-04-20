@@ -30,49 +30,6 @@ int main(int argc, char const *argv[])
             {(rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1), (rand() % 5 + 1)}         
     };
 
-//   //recorre las filas
-
-//       for (int filas = 0; filas <5; filas++)
-//     {
-//         //recorre las columnas
-//         for (int columnas = 0; columnas <5; columnas++)
-//         {
-//             cout<<"Fila "<< filas <<" columnas "<<columnas<<endl;
-//             cout<<sumarArreglo[filas][columnas];
-//             //"Total Suma: "<<
-//             cout<<endl;      
-//         }
-//     }
-  
-// Suma los elementos en la ultima fila/columna
-// for (int filas = 0; filas < 5; ++filas)
-// {
-//     resultado += sumarArreglo[5][filas];
-//     for (int columnas = 0; columnas < 5; ++columnas)
-//     {
-//         sumarArreglo[5][filas] += sumarArreglo[filas][columnas];
-//         sumarArreglo[5][columnas] += sumarArreglo[filas][columnas];
-//         //cout<<endl;
-        
-//     }
-// }
-
-// // Mostrar resultados
-// for (int filas = 0; filas <5; ++filas)
-// {
-//     for (int columnas = 0; columnas < 5; ++columnas)
-//     {
-//         printf("%d ", sumarArreglo[filas][columnas]);
-//         //cout<<sumarArreglo[filas][columnas];
-//     //     cout<<"===========";
-//     // cout<<"Total Suma: ";
-//     }
-//     printf("\n");
-//     cout<<"La suma Total es: "<<resultado;
-    
-
-// }
-
 for (int filas = 0; filas <5; filas++)
 {
     for (int columnas = 0; columnas <5; columnas++)
@@ -89,16 +46,14 @@ for (int filas = 0; filas <5; filas++)
     for (int columnas = 0; columnas <5; columnas++)
     {
         sumaFila= sumaFila + sumarArreglo[filas][columnas];
-        if (sumaFila <5)
-        {
-            total1 = total1 + sumaFila;
-        }
     }
     cout<<"Suma de la fila es:"<<filas<<"--->" << sumaFila;
     cout<<endl;
+    total1 +=sumaFila;
 }
  
  cout<<endl;
+ 
 //suma de las columnas
 
 for (int columnas = 0; columnas <5; columnas++)
@@ -107,14 +62,11 @@ for (int columnas = 0; columnas <5; columnas++)
     for (int filas = 0; filas <5; filas++)
     {
         sumaColumna=sumaColumna + sumarArreglo[filas][columnas];
-        if (sumaColumna <5)
-        {
-            total2 = total2 + sumaColumna;
-        }
         
     }
     cout<<"Suma de la columna es:"<<columnas<<"--->" << sumaColumna;
     cout<<endl;
+    total2 +=sumaColumna;
 }
 
 //cout<<"Total Suma: "<<(sumaFila * columnas) + (sumaColumna * filas);
