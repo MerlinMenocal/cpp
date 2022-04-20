@@ -55,6 +55,7 @@ int main(int argc, char const *argv[])
         total1 += sumaFila;
     }
  
+    cout<<endl;
     //suma de las columnas
     for (int columnas = 0; columnas <5; columnas++)
     {
