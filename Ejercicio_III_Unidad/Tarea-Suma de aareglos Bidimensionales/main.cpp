@@ -109,7 +109,7 @@ for (int columnas = 0; columnas <5; columnas++)
         sumaColumna=sumaColumna + sumarArreglo[filas][columnas];
         if (sumaColumna <5)
         {
-            total1 = total1 + sumaColumna;
+            total2 = total2 + sumaColumna;
         }
         
     }
@@ -118,7 +118,7 @@ for (int columnas = 0; columnas <5; columnas++)
 }
 
 //cout<<"Total Suma: "<<(sumaFila * columnas) + (sumaColumna * filas);
-cout<<"Total Suma: "<<(sumaFila * 4 + sumaColumna * 4);
+cout<<"Total Suma: "<<(total1 + total2);
 
 
     return 0;
