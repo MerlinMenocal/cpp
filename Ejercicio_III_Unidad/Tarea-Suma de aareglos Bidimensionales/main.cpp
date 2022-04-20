@@ -109,7 +109,7 @@ for (int columnas = 0; columnas <5; columnas++)
 }
 
 //cout<<"Total Suma: "<<(sumaFila * columnas) + (sumaColumna * filas);
-cout<<"Total Suma: "<<(sumarArreglo[5][filas] += sumarArreglo[filas][columnas])+(sumarArreglo[5][columnas] += sumarArreglo[filas][columnas]);
+cout<<"Total Suma: "<<(sumaFila * filas  + sumaColumna * columnas);
 
     return 0;
 }
