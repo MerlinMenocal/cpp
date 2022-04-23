@@ -12,15 +12,18 @@ string arregloClientes[5][3] ={
 
 void mostrarClientes(){
     system("cls");
-    cout<<"Codigo Nombre y Telefono"<<endl;
+    cout<<"Codigo, Nombre y Telefono"<<endl;
     cout<<"------------------------"<<endl<<endl;
     for (int i = 0; i < 5; i++)
 
     {
-        cout<<arregloClientes[i][0]<<" ";
-        cout<<arregloClientes[i][1]<<" ";
-        cout<<arregloClientes[i][2]<<" ";
+        cout<<arregloClientes[i][0]<<" | ";
+        cout<<arregloClientes[i][1]<<" | ";
+        cout<<arregloClientes[i][2]<<" | ";
         cout<<endl;
     }
+
+    cout<<endl;
+    cout<<endl;
     system("pause");
 }

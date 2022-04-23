@@ -1,5 +1,6 @@
 #include<iostream>
 #include "clientes.h"
+#include "juegos.h"
 
 using namespace std;
 
@@ -33,6 +34,9 @@ void menu(){
         case 2:{
             mostrarClientes();
             break;
+        case 3:
+            mostrarProductos ();
+            break;    
         }
             
         
