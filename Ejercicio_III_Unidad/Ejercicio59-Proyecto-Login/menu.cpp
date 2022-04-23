@@ -1,6 +1,7 @@
 #include<iostream>
 #include "clientes.h"
 #include "juegos.h"
+#include "rentar.h"
 
 using namespace std;
 
@@ -28,14 +29,14 @@ void menu(){
         switch (opcion)
         {
         case 1:
-             //rentar();
+            rentar();
             system("pause");
             break;
         case 2:{
             mostrarClientes();
             break;
         case 3:
-            mostrarProductos ();
+            mostrarJuegos ();
             break;    
         }
             

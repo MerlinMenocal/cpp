@@ -27,3 +27,30 @@ void mostrarClientes(){
     cout<<endl;
     system("pause");
 }
+
+
+//devolver el nombre del cliente
+string buscarCliente (string codigo){
+    char continuar;
+    while (true)
+    {
+        for (int i = 0; i <10; i++)
+        {
+            if (arregloClientes[i][0]== codigo)
+            {
+                return arregloClientes[i][1];
+            } 
+        }
+        cout<<"No se encontro el producto, desea continuar? s/n";
+        cin>>continuar;
+        if (continuar == 'n')
+        {
+            break;
+        }
+    }
+    return "";
+    
+};
+
+
+
