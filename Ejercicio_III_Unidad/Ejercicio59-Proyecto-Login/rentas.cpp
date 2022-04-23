@@ -12,7 +12,7 @@ void rentar(){
     string nombreCliente = "";
     string codigoCliente = "";
 
-    cout<<"Ingrese el codigo del cleinte";
+    cout<<"Ingrese el codigo del clinte";
     cin>>codigoCliente;
     nombreCliente = buscarCliente(codigoCliente);
 

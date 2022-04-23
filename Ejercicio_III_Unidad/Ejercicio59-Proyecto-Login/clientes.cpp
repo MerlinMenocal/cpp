@@ -41,7 +41,7 @@ string buscarCliente (string codigo){
                 return arregloClientes[i][1];
             } 
         }
-        cout<<"No se encontro el producto, desea continuar? s/n";
+        cout<<"No se encontro el Cliente, desea continuar? s/n";
         cin>>continuar;
         if (continuar == 'n')
         {
