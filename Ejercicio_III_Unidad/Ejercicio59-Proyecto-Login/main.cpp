@@ -6,11 +6,10 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    bool respuesta = login();
+    bool respuesta = login1();
 
     if (respuesta == true)
     {
-        //cout<<"Bienvenido al sistema";
         void menu();
     }
     

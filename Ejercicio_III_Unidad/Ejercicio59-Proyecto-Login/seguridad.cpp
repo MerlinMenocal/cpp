@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool login(){
+bool login1(){
     string password = "";
     int intentos = 0;
 
