@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
 
     if (respuesta == true)
     {
-        void menu();
+        menu();
     }
     
     return 0;
