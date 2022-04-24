@@ -11,7 +11,7 @@ void menu(){
     while (salir == false)
     {
         int opcion =0;
-
+        cout<<endl;
         cout<<"MENU PRINCIPAL"<<endl;
         cout<<"--------------"<<endl;
         cout<<endl;
