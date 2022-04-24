@@ -74,7 +74,7 @@ void rentar(){
 
  void reporteRentas(){
      system("cls");
-     cout<<"Reporte de Rentas"<<endl<<endl;
+     cout<<"Reporte de Rentas"<<endl;
      cout<<"-----------------"<<endl<<endl;
 
      for (int i = 0; i <ultimaLinea; i++)

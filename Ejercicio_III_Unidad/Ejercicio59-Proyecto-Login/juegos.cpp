@@ -18,7 +18,7 @@ string arregloJuegos [10][2]={
 void mostrarJuegos (){
     system("cls");
     cout<<"Codigo, Descripcion"<<endl;
-    cout<<"-------------------"<<endl;
+    cout<<"-------------------"<<endl<<endl;
 
     for (int i = 0; i <10; i++)
     {
