@@ -16,10 +16,10 @@ void rentar(){
     cin>>codigoCliente;
     nombreCliente = buscarCliente(codigoCliente);
 
-    if (nombreCliente =="")
+    if (nombreCliente !="")
     {
-        
+       cout<<endl;
+       cout<<nombreCliente <<endl;
     }
-    system("pause");
 
 }

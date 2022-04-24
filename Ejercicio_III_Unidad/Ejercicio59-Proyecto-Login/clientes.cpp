@@ -38,7 +38,6 @@ string buscarCliente (string codigo){
         {
             if (arregloClientes[i][0]== codigo)
             {
-                cout<<arregloClientes[i][1]<<endl;
                 return arregloClientes[i][1];
             } 
         }
