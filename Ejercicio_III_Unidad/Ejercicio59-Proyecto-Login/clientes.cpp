@@ -31,9 +31,7 @@ void mostrarClientes(){
 
 //devolver el nombre del cliente
 string buscarCliente (string codigo){
-    char continuar;
-    while (true)
-    {
+    
         for (int i = 0; i <10; i++)
         {
             if (arregloClientes[i][0]== codigo)
@@ -41,13 +39,7 @@ string buscarCliente (string codigo){
                 return arregloClientes[i][1];
             } 
         }
-        cout<<"No se encontro el Cliente, desea continuar? s/n";
-        cin>>continuar;
-        if (continuar == 'n')
-        {
-            break;
-        }
-    }
+    
     return "";
     
 };

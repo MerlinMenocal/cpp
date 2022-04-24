@@ -11,15 +11,33 @@ void rentar(){
 
     string nombreCliente = "";
     string codigoCliente = "";
-
-    cout<<"Ingrese el codigo del clinte";
-    cin>>codigoCliente;
-    nombreCliente = buscarCliente(codigoCliente);
-
-    if (nombreCliente !="")
+    
+    char continuar;
+    while (true)
     {
-       cout<<endl;
-       cout<<nombreCliente <<endl;
+        cout<<"Ingrese el codigo del clinte";
+        cin>>codigoCliente;
+
+        nombreCliente = buscarCliente(codigoCliente);
+
+        if (nombreCliente !="")
+        {
+        cout<<endl;
+        cout<<nombreCliente <<endl;
+        break;
+        }else{
+            cout<<"No se encontro el Cliente, desea continuar? s/n"<<endl;
+            cin>>continuar;
+
+            if (continuar == 'n' || continuar == 'N' )
+            {
+                return ;
+            }
+            
+        }
     }
+
+    
+    
 
 }
