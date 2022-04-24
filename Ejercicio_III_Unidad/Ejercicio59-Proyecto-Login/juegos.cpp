@@ -30,5 +30,18 @@ void mostrarJuegos (){
     cout<<endl;
     cout<<endl;
     system("pause");
-
 }
+
+string buscarJuego (string codigo){
+    
+        for (int i = 0; i <10; i++)
+        {
+            if (arregloJuegos[i][0]== codigo)
+            {
+                return arregloJuegos[i][1];
+            } 
+        }
+    
+    return "";
+    
+};

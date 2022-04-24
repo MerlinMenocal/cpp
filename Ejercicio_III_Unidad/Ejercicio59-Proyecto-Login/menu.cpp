@@ -30,7 +30,6 @@ void menu(){
         {
         case 1:
             rentar();
-            system("pause");
             break;
         case 2:{
             mostrarClientes();

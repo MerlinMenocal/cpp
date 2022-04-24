@@ -32,7 +32,7 @@ void mostrarClientes(){
 //devolver el nombre del cliente
 string buscarCliente (string codigo){
     
-        for (int i = 0; i <10; i++)
+        for (int i = 0; i <5; i++)
         {
             if (arregloClientes[i][0]== codigo)
             {
