@@ -19,7 +19,7 @@ void rentar(){
     char continuar;
     while (true)
     {
-        cout<<"Ingrese el codigo del clinte";
+        cout<<"Ingrese el codigo del cliente: ";
         cin>>codigoCliente;
 
         nombreCliente = buscarCliente(codigoCliente);
@@ -45,7 +45,7 @@ void rentar(){
 
     while (true)
     {
-        cout<<"Ingrese el codigo del Juego";
+        cout<<"Ingrese el codigo del Juego: ";
         cin>>codigoJuego;
 
         nombreJuego = buscarJuego(codigoJuego);
@@ -75,7 +75,7 @@ void rentar(){
  void reporteRentas(){
      system("cls");
      cout<<"Reporte de Rentas"<<endl<<endl;
-     cout<<"-----------------";
+     cout<<"-----------------"<<endl<<endl;
 
      for (int i = 0; i <ultimaLinea; i++)
      {

@@ -23,7 +23,7 @@ void mostrarJuegos (){
     for (int i = 0; i <10; i++)
     {
         cout<<arregloJuegos[i][0]<<" | ";
-        cout<<arregloJuegos[i][1]<<" | ";
+        cout<<arregloJuegos[i][1]<<"";
         cout<<endl;
     }
 
