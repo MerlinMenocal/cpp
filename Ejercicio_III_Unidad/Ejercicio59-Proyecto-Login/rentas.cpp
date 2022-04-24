@@ -41,6 +41,8 @@ void rentar(){
         }
     }
 
+    cout<<endl;
+
     while (true)
     {
         cout<<"Ingrese el codigo del Juego";
