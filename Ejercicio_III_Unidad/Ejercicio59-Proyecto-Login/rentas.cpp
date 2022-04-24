@@ -82,4 +82,4 @@ void rentar(){
      cout<<endl;
      cout<<endl;
      system("pause");
- }
+ };
