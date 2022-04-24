@@ -31,16 +31,15 @@ void menu(){
         case 1:
             rentar();
             break;
-        case 2:{
+        case 2:
             mostrarClientes();
             break;
         case 3:
             mostrarJuegos ();
             break;    
-        }
-            
-        
-
+        case 4: 
+            reporteRentas();
+            break;
         case 5:
             salir = true;
         default:

@@ -67,5 +67,19 @@ void rentar(){
 
     arregloRentas[ultimaLinea] = codigoCliente + " | " + nombreCliente + " - " +codigoJuego  +" | " + nombreJuego;
     ultimaLinea ++;
+    system("pause");
 }
 
+ void reporteRentas(){
+     system("cls");
+     cout<<"Reporte de Rentas"<<endl<<endl;
+     cout<<"-----------------";
+
+     for (int i = 0; i <ultimaLinea; i++)
+     {
+         cout<<arregloRentas[i]<<endl;
+     }
+     cout<<endl;
+     cout<<endl;
+     system("pause");
+ }
