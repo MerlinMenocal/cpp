@@ -4,11 +4,11 @@
 using namespace std;
 
 string productos [5][3]{
-    {"001","Iphone X", "10"},
-    {"002","Table Samsumg A8", "100"},
-    {"003","Laptop Dell", "85"},
-    {"004","CPU Dell", "20"},
-    {"005","Monitor HP", "24"},
+    {"001","Iphone X","10"},
+    {"002","Table Samsumg A8","100"},
+    {"003","Laptop Dell","85"},
+    {"004","CPU Dell","20"},
+    {"005","Monitor HP","24"},
 };
 
 void listarProductos (){
