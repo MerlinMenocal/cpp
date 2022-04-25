@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include <algorithm>
 
 using namespace std;
 string libros[2][2];
@@ -28,6 +30,8 @@ int main(int argc, char const *argv[])
         for (int i = 0; i <2; i++)
         {
             string libro = libros[i][1];
+            transform(libro.begin(), libro.end(), libro.begin(), ::tolower);
+            transform(buscar.begin(), buscar.end(), buscar.begin(), ::tolower);
 
             if (libro.find(buscar) != string::npos)
             {
