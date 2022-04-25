@@ -88,11 +88,11 @@ int main(int argc, char const *argv[])
                 cout <<"Sugerencia 3: "<< libros[sugerencia3][3]<<endl;
 
                 salir = true;
+                break;
             }
             
         }
         
-
         if (salir== false)
         {
             char continuar = 'n';
