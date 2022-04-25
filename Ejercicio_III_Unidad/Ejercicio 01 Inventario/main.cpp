@@ -20,7 +20,7 @@ void listarProductos (){
 
     for (int i = 0; i <5; i++)
         {
-            cout<<productos[i][0]<<" "<< productos[i][1]<<endl;
+            cout<<productos[i][0]<<" | "<< productos[i][1]<<" | "<< productos[i][2]<<endl;
         }
 }
 
@@ -31,10 +31,10 @@ void movimientoInventario (string codigo, int cantidad, string tipoMovimiento){
         {
             if (tipoMovimiento == "+")
                 {
-                    productos[i][2]= stoi(productos[i][2]) + cantidad;
+                    productos[i][2]= to_string(stoi(productos[i][2]) + cantidad);
                     //       stoi convierte texto a tipo entero      
                 }else{
-                    productos[i][2]= stoi(productos[i][2]) - cantidad;
+                    productos[i][2]= to_string(stoi(productos[i][2]) - cantidad);
                 }
         }
 
