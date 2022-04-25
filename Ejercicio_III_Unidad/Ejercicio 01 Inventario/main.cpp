@@ -1,14 +1,64 @@
 #include<iostream>
+#include <string>
 
 using namespace std;
 
-string productos [5][2]{
-    {"001","Iphone X"},
-    {"002","Table Samsumg A8"},
-    {"003","Laptop Dell"},
-    {"004","CPU Dell"},
-    {"005","Monitor HP"},
+string productos [5][3]{
+    {"001","Iphone X", "10"},
+    {"002","Table Samsumg A8", "100"},
+    {"003","Laptop Dell", "85"},
+    {"004","CPU Dell", "20"},
+    {"005","Monitor HP", "24"},
 };
+
+void listarProductos (){
+    system("cls");
+    cout<<endl;
+    cout<<"LISTADO DE PRODUCTOS"<<endl;
+    cout<<"********************"<<endl;
+    cout<<"Codigo, Descripcion y Existencia"<<endl;
+
+    for (int i = 0; i <5; i++)
+        {
+            cout<<productos[i][0]<<" "<< productos[i][1]<<endl;
+        }
+}
+
+void movimientoInventario (string codigo, int cantidad, string tipoMovimiento){
+    for (int i = 0; i <5; i++)
+    {
+        if (productos[i][0]== codigo)
+        {
+            if (tipoMovimiento == "+")
+                {
+                    productos[i][2]= stoi(productos[i][2]) + cantidad;
+                    //       stoi convierte texto a tipo entero      
+                }else{
+                    productos[i][2]= stoi(productos[i][2]) - cantidad;
+                }
+        }
+
+    }
+   
+}
+
+void ingresoInventario(){
+    string codigoProducto= "";
+    int cantidad = 0;
+
+    system("cls");
+    cout<<endl;
+    cout<<"INGRESO DE PRODUCTOS AL INVENTARIO"<<endl;
+    cout<<"**********************************"<<endl;
+    cout<<"Ingrese el Codigo de Producto: ";
+    cin>>codigoProducto;
+    cout<<endl;
+    cout<<"Ingrese la cantidad del Producto: ";
+    cin>>cantidad;
+    cout<<endl;
+
+    movimientoInventario(codigoProducto, cantidad, "+");
+}
 
 int main(int argc, char const *argv[])
 {
@@ -21,7 +71,6 @@ int main(int argc, char const *argv[])
         cout<<"Sistema de Inventario"<<endl;
         cout<<"---------------------"<<endl<<endl;
         cout<<endl;
-        cout<<endl;
         cout<<"1- Productos"<<endl;
         cout<<"2- Ingreso de Inventario "<<endl;
         cout<<"3- Salida de Inventario "<<endl;
@@ -33,22 +82,11 @@ int main(int argc, char const *argv[])
 
         switch (opcion)
         {
-        case 1:{
-            cout<<endl;
-            cout<<"LISTADO DE PRODUCTOS"<<endl;
-            cout<<"********************"<<endl;
-            
-            for (int i = 0; i <5; i++)
-            {
-                cout<<productos[i][0]<<" "<< productos[i][1]<<endl;
-            }
-            
-            cout<<"Escogistes 1";
-            break;
-
-        }   
+        case 1:
+            listarProductos ();
+            break;  
         case 2:
-            cout<<"Escogistes 2";
+            ingresoInventario();
             break;
         case 3:
             cout<<"Escogistes 3";
