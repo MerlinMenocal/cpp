@@ -72,11 +72,12 @@ int main(int argc, char const *argv[])
             string libroEnminuscula = libro;
             //transformamos el texto en minusculas
             transform(libroEnminuscula.begin(), libroEnminuscula.end(), libroEnminuscula.begin(), ::tolower);
+            string buscarEnMinuscula = buscar;
             transform(buscar.begin(), buscar.end(), buscar.begin(), ::tolower);
 
             if (libroEnminuscula.find(buscar) != string::npos)
             {
-                cout<<"Libro encontrado: "<<libro<<endl;
+                cout<<"Libro encontrado: "<<libros[i][1]<<endl;
 
                 int sugerencia1 = rand()% 38 + 1;
                 int sugerencia2 = rand()% 38 + 1;
@@ -108,8 +109,6 @@ int main(int argc, char const *argv[])
                 }else if(continuar == 'n' || continuar =='N')
                     salir = true;
                     break;
-                
-
             }
             
         }
