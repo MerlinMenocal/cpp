@@ -2,6 +2,14 @@
 
 using namespace std;
 
+string productos [5][2]{
+    {"001","Iphone X"},
+    {"002","Table Samsumg A8"},
+    {"003","Laptop Dell"},
+    {"004","CPU Dell"},
+    {"005","Monitor HP"},
+};
+
 int main(int argc, char const *argv[])
 {
 
@@ -25,9 +33,20 @@ int main(int argc, char const *argv[])
 
         switch (opcion)
         {
-        case 1:
+        case 1:{
+            cout<<endl;
+            cout<<"LISTADO DE PRODUCTOS"<<endl;
+            cout<<"********************"<<endl;
+            
+            for (int i = 0; i <5; i++)
+            {
+                cout<<productos[i][0]<<" "<< productos[i][1]<<endl;
+            }
+            
             cout<<"Escogistes 1";
             break;
+
+        }   
         case 2:
             cout<<"Escogistes 2";
             break;
