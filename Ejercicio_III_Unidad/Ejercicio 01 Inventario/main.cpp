@@ -8,7 +8,7 @@ string productos [5][3]{
     {"002","Table Samsumg A8","100"},
     {"003","Laptop Dell","85"},
     {"004","CPU Dell","20"},
-    {"005","Monitor HP","24"},
+    {"005","Monitor HP","24"}
 };
 
 void listarProductos (){
