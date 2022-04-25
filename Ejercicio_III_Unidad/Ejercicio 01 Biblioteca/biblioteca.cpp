@@ -25,6 +25,18 @@ int main(int argc, char const *argv[])
         cin>>buscar;
 
         //Busqueda
+        for (int i = 0; i <2; i++)
+        {
+            string libro = libros[i][1];
+
+            if (libro.find(buscar) != string::npos)
+            {
+                cout<<"Libro encontrado: "<<libro<<endl;
+                salir = true;
+            }
+            
+        }
+        
 
         if (salir== false)
         {
