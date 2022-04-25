@@ -60,6 +60,24 @@ void ingresoInventario(){
     movimientoInventario(codigoProducto, cantidad, "+");
 }
 
+void salidaInventario(){
+    string codigoProducto= "";
+    int cantidad = 0;
+
+    system("cls");
+    cout<<endl;
+    cout<<"SALIDA DE PRODUCTOS DEL INVENTARIO"<<endl;
+    cout<<"**********************************"<<endl;
+    cout<<"Ingrese el Codigo de Producto: ";
+    cin>>codigoProducto;
+    cout<<endl;
+    cout<<"Ingrese la cantidad del Producto: ";
+    cin>>cantidad;
+    cout<<endl;
+
+    movimientoInventario(codigoProducto, cantidad, "-");
+}
+
 int main(int argc, char const *argv[])
 {
 
@@ -89,7 +107,7 @@ int main(int argc, char const *argv[])
             ingresoInventario();
             break;
         case 3:
-            cout<<"Escogistes 3";
+            salidaInventario();
             break;
         
         default:
