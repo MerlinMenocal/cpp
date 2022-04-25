@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 {
     for (int i = 0; i <2; i++)
     {
-        cout<<libros[i][1];
+        cout<<libros[i][1]<<endl;
     }
     
     return 0;
