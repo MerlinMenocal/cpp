@@ -1,4 +1,5 @@
 #include <iostream>
+#include "menu.h"
 
 using namespace std;
 
@@ -19,6 +20,11 @@ void estudiantes(){
         case 2:
             //eliminarEstudiante();
             break;
+        case 3:
+            menu();
+            break; 
+
+            
         
         default:
             break;
