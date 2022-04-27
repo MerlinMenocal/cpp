@@ -29,6 +29,7 @@ void menu(){
         {
         case 1:
             politicas();
+            system("cls");
             break;
         case 2:
            // mostrarEstudiantes();
