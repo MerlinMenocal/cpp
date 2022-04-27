@@ -3,7 +3,9 @@
 
 using namespace std;
 
+
 void politicas(){
+    setlocale(LC_CTYPE, "Spanish");//Idioma y acentos
 
     cout<<"POLITICAS DE LA INSTITUCION"<<endl;
     cout<<"---------------------------"<<endl;
