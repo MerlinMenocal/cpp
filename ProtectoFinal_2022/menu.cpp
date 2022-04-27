@@ -49,6 +49,7 @@ void menu(){
             //reporteEstudiantes();
             break;
         case 6:
+            system("cls");
             horarios();
         case 7:
             salir = true;
