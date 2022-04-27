@@ -40,27 +40,27 @@ void estudiantes(){
         cout<<"---------------------------------"<<endl;
 
         cout<<"Ingrese el Nombre: ";
-        cin>>persona[i][0];
+        cin>>ingresoEstudiantes[i][0];
         cout<<endl;
 
         cout<<"Ingrese el Apellido: ";
-        cin>>persona[i][1];
+        cin>>ingresoEstudiantes[i][1];
         cout<<endl;
 
         cout<<"Ingrese el ID: ";
-        cin>>persona[i][2];
+        cin>>ingresoEstudiantes[i][2];
         cout<<endl;
 
         cout<<"Ingrese el Telefono de Contacto: ";
-        cin>>persona[i][3];
+        cin>>ingresoEstudiantes[i][3];
         cout<<endl;
 
         cout<<"Ingrese la edad: ";
-        cin>>persona[i][4];
+        cin>>ingresoEstudiantes[i][4];
         cout<<endl;
 
         cout<<"Ingrese el correo Electronico: ";
-        cin>>persona[i][5];
+        cin>>ingresoEstudiantes[i][5];
         cout<<endl;
 
     }

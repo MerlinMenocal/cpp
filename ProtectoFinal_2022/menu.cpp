@@ -1,6 +1,7 @@
 #include <iostream>
 #include "politicas.h"
 #include "estudiantes.h"
+#include "horarios.h"
 
 using namespace std;
 
@@ -19,7 +20,9 @@ void menu(){
         cout<<"3 - Profesores"<<endl;
         cout<<"4 - Carreras"<<endl;
         cout<<"5 - Reporte de Estudiantes"<<endl;
-        cout<<"6 - Salir"<<endl;
+        cout<<"6 - Horarios de Atencion"<<endl;
+        cout<<"7 - Salir"<<endl;
+
 
         cout<<endl;
         cout<<endl;
@@ -46,6 +49,8 @@ void menu(){
             //reporteEstudiantes();
             break;
         case 6:
+            horarios();
+        case 7:
             salir = true;
             
         default:

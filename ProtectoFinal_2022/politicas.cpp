@@ -12,11 +12,11 @@ void politicas(){
     cout<<endl;
     cout<<"POLITICA DE CALIDAD"<<endl;
     cout<<"___________________"<<endl;
-    cout<<"El Colegio Real Royal School es una Institución educativa"<<endl;
-    cout<<"comprometida con la formacion integral de los estudiantes,"<<endl;
+    cout<<"En esta Institución educativa estamos"<<endl;
+    cout<<"comprometidos con la formacion integral de los estudiantes,"<<endl;
     cout<<"con enfasis en el aprendizaje de idiomas (ingles y frances)"<<endl;
     cout<<" y con un fortalecimiento en valores, en los niveles de Preescolar,"<<endl; 
-    cout<<"Primaria y Secundaria."<<endl;
+    cout<<"Primaria, Secundaria y Carreras Tecnicas."<<endl;
     cout<<endl;
 
     cout<<"POLITICA DE SEGURIDAD Y SALUD EN EL TRABAJO"<<endl;
