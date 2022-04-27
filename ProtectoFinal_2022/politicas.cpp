@@ -6,7 +6,7 @@ void politicas(){
 
     cout<<"POLITICAS DE LA INSTITUCION"<<endl;
     cout<<"---------------------------"<<endl;
-    system("pause");
+    system("cls");
 
 
     
