@@ -28,6 +28,7 @@ void menu(){
         switch (opcion)
         {
         case 1:
+            system("cls");
             politicas();
             break;
         case 2:
