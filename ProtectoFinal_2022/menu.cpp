@@ -22,7 +22,7 @@ void menu(){
 
         cout<<endl;
         cout<<endl;
-        cout<<"Ingrese un Numero del menu y presione enter -->";
+        cout<<"Ingrese un Numero del menu y presione enter --> ";
         cin>>opcion;
 
         switch (opcion)
