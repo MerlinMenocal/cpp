@@ -33,6 +33,7 @@ void menu(){
             politicas();
             break;
         case 2:
+            system("cls");
             estudiantes();
             break;
         case 3:
