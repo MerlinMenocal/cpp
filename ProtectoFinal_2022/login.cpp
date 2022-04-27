@@ -10,9 +10,10 @@ bool login(){
 	int intentos = 0;
 
 while (intentos <=3){
-      system("cls");
+      //system("cls");
 
 		if (intentos ==3)
+
 		{
 			cout<<"Usuario o Contrasena incorrectos!"<<endl;
 			return false;
