@@ -12,7 +12,7 @@ void politicas(){
     cout<<endl;
     cout<<"POLITICA DE CALIDAD"<<endl;
     cout<<"___________________"<<endl;
-    cout<<"En esta Institución educativa estamos"<<endl;
+    cout<<"En esta Institucion educativa estamos"<<endl;
     cout<<"comprometidos con la formacion integral de los estudiantes,"<<endl;
     cout<<"con enfasis en el aprendizaje de idiomas (ingles y frances)"<<endl;
     cout<<" y con un fortalecimiento en valores, en los niveles de Preescolar,"<<endl; 

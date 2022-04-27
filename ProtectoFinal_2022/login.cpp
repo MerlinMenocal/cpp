@@ -1,5 +1,6 @@
 #include <iostream>
 #include<string>
+#include<conio.h> //getch
 
 using namespace std;
 
@@ -29,9 +30,18 @@ while (intentos <=3){
 	cin>>usuario;
 	// cout<<endl;
 	cout<<"\tIngrese la Contrasena: ";
-	cin>>contrasena;
+	//cin>>contrasena;
+	char caracter ;
+	caracter = getch();
+
+	while (caracter != 13){
+		contrasena.push_back(caracter);
+		cout<<"*";
+		caracter = getch();
+	}
 	cout<<endl;
 	
+
 	if(usuario == "admin" && contrasena == "proyecto2022"){
 		//cout<<"\t\t\tBienvenido al Sistema!"<<endl;
 		system("cls");
