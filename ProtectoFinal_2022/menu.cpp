@@ -37,7 +37,7 @@ void menu(){
             break;
         case 2:
             system("cls");
-            estudiantes();
+            //estudiantes();
             break;
         case 3:
             //profesores();
