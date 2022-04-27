@@ -1,2 +1,2 @@
-g++ .\main.cpp .\login.cppp .\menu.cpp -o sistem.exe
+g++ .\main.cpp .\login.cpp .\menu.cpp -o sistem.exe
 sistem.exe
