@@ -51,6 +51,7 @@ void menu(){
         case 6:
             system("cls");
             horarios();
+            break;
         case 7:
             salir = true;
             
