@@ -7,8 +7,8 @@ using namespace std;
 void politicas(){
     setlocale(LC_ALL, "es_ES");//Idioma y acentos
 
-    cout<<"\t\tPOLITICAS DE LA INSTITUCION"<<endl;
-    cout<<"---------------------------"<<endl;
+    cout<<"\t\t\t\t\t\tPOLITICAS DE LA INSTITUCION"<<endl;
+    cout<<"\t\t\t\t\t\t---------------------------"<<endl;
     cout<<endl;
     cout<<"POLITICA DE CALIDAD"<<endl;
     cout<<"___________________"<<endl;
