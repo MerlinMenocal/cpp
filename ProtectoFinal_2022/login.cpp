@@ -38,6 +38,7 @@ while (intentos <=3){
 		contrasena.push_back(caracter);
 		cout<<"*";
 		caracter = getch();
+		contrasena = "";
 	}
 	cout<<endl;
 	
