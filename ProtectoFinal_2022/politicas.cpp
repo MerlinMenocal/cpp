@@ -1,4 +1,5 @@
 #include <iostream>
+#include<locale.h>//Librería acentos
 
 using namespace std;
 
