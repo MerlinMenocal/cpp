@@ -1,18 +1,25 @@
 #include <iostream>
 #include<string>
-#include "menu.h"
 
 using namespace std;
 
 
-string login(string usuario, string contrasena){
-	return usuario + " " + contrasena;
+bool login(){
+	string usuario ="";
+	string contrasena ="";
+	int intentos = 0;
 
-}
-int main(int argc, char** argv) {
-	
+while (intentos <=3){
+      system("cls");
+
 	string usuario = "admin";
 	string contrasena = "proyecto2022";
+
+	if (intentos <=3)
+	{
+		cout<<"Usuario o Contrasena incorrectos!"<<endl;
+		return false;
+	}
 	
 	cout<<endl;
 	cout<<"\t\t\t____________________________"<<endl;
@@ -24,19 +31,19 @@ int main(int argc, char** argv) {
 	cout<<"\t\t\t Ingrese el Usuario: ";
 	cin>>usuario;
 	// cout<<endl;
-	
 	cout<<"\t\t\t Ingrese la Contrasena: ";
 	cin>>contrasena;
 	cout<<endl;
 	
-	string ();
 	if(usuario == "admin" && contrasena == "proyecto2022"){
-		cout<<"\t\t\tBienvenido al Sistema!"<<endl;
+		//cout<<"\t\t\tBienvenido al Sistema!"<<endl;
 		system("cls");
-		menu();
-	}else{
-		cout<<"\t\t\tUsuario o Contrasena Incorrecto!"<<endl;
+		return true;
 	}
-	
-	return 0;
+intentos ++;	
+
 }
+
+return false;
+}
+
