@@ -13,7 +13,7 @@ void menu(){
         cout<<"MENU PRINCIPAL"<<endl;
         cout<<"--------------"<<endl;
         cout<<endl;
-        cout<<"1 - Politicas Mision y Vision de la Institucion"<<endl;
+        cout<<"1 - Politicas, Mision y Vision de la Institucion"<<endl;
         cout<<"2 - Estudiantes"<<endl;
         cout<<"3 - Profesores"<<endl;
         cout<<"4 - Carreras"<<endl;
