@@ -5,21 +5,18 @@ using namespace std;
 
 
 bool login(){
-	string usuario ="";
-	string contrasena ="";
+	string usuario ="admin";
+	string contrasena ="proyecto2022";
 	int intentos = 0;
 
 while (intentos <=3){
       system("cls");
 
-	string usuario = "admin";
-	string contrasena = "proyecto2022";
-
-	if (intentos <=3)
-	{
-		cout<<"Usuario o Contrasena incorrectos!"<<endl;
-		return false;
-	}
+		if (intentos ==3)
+		{
+			cout<<"Usuario o Contrasena incorrectos!"<<endl;
+			return false;
+		}
 	
 	cout<<endl;
 	cout<<"\t\t\t____________________________"<<endl;
