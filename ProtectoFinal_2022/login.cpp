@@ -25,10 +25,10 @@ while (intentos <=3){
 	cout<<endl;
 	cout<<endl;
 	
-	cout<<"\t\t Ingrese el Usuario: ";
+	cout<<"\tIngrese el Usuario: ";
 	cin>>usuario;
 	// cout<<endl;
-	cout<<"\t\t Ingrese la Contrasena: ";
+	cout<<"\tIngrese la Contrasena: ";
 	cin>>contrasena;
 	cout<<endl;
 	
