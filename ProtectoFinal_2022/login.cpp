@@ -30,16 +30,7 @@ while (intentos <=3){
 	cin>>usuario;
 	// cout<<endl;
 	cout<<"\tIngrese la Contrasena: ";
-	//cin>>contrasena;
-	char caracter ;
-	caracter = getch();
-
-	while (caracter != 13){
-		contrasena.push_back(caracter);
-		cout<<"*";
-		caracter = getch();
-		contrasena = "";
-	}
+	cin>>contrasena;
 	cout<<endl;
 	
 
