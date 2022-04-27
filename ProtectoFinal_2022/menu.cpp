@@ -26,16 +26,16 @@ void menu(){
         switch (opcion)
         {
         case 1:
-            rentar();
+            //rentar();
             break;
         case 2:
-            mostrarClientes();
+           // mostrarClientes();
             break;
         case 3:
-            mostrarJuegos ();
+            //mostrarJuegos ();
             break;    
         case 4: 
-            reporteRentas();
+            //reporteRentas();
             break;
         case 5:
             salir = true;
