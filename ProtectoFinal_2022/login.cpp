@@ -1,9 +1,8 @@
 #include <iostream>
 #include<string>
+#include "menu.h"
 
 using namespace std;
-
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 
 string login(string usuario, string contrasena){
@@ -24,7 +23,7 @@ int main(int argc, char** argv) {
 	
 	cout<<"\t\t\t Ingrese el Usuario: ";
 	cin>>usuario;
-	cout<<endl;
+	// cout<<endl;
 	
 	cout<<"\t\t\t Ingrese la Contrasena: ";
 	cin>>contrasena;
@@ -33,6 +32,8 @@ int main(int argc, char** argv) {
 	string ();
 	if(usuario == "admin" && contrasena == "proyecto2022"){
 		cout<<"\t\t\tBienvenido al Sistema!"<<endl;
+		system("cls");
+		menu();
 	}else{
 		cout<<"\t\t\tUsuario o Contrasena Incorrecto!"<<endl;
 	}
