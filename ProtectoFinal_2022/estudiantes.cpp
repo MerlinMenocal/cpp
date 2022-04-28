@@ -4,9 +4,10 @@
 using namespace std;
 
 //void estudiantes();
-string ingresoEstudiantes[10][9];
+
 
 void listaEstudiantes(){
+    string ingresoEstudiantes[10][9];
 
            cout<<"Ingresastes estos Datos:"<<endl;
            cout<<ingresoEstudiantes[0][0]<<endl;
@@ -23,7 +24,7 @@ void listaEstudiantes(){
 
     int main(int argc, char const *argv[])
     {
-        
+        void listaEstudiantes();
         string ingresoEstudiantes[10][9];
 
         cout<<"Registro de Datos para Estudiantes"<<endl;
