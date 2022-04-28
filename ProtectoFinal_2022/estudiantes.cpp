@@ -86,7 +86,7 @@ string alumnos [10][9]
 };   
 
 void listaAlumnos (){
-    system("cls");
+    system("pause");
     cout<<endl;
     cout<<"LISTADO DE ALUMNOS"<<endl;
     cout<<"********************"<<endl;
