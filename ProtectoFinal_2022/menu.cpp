@@ -2,6 +2,7 @@
 #include "politicas.h"
 #include "estudiantes.h"
 #include "horarios.h"
+#include "profesores.h"
 
 using namespace std;
 
@@ -41,7 +42,8 @@ void menu(){
             listaAlumnos();
             break;
         case 3:
-            //profesores();
+            system("cls");
+            mostrarProfesores();
             break;    
         case 4: 
             //carreras();
