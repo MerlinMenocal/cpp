@@ -4,6 +4,7 @@
 using namespace std;
 
 //void estudiantes();
+string ingresoEstudiantes[10][9];
 
 void listaEstudiantes(){
 
