@@ -19,7 +19,7 @@ void menu(){
         cout<<"2 - Estudiantes"<<endl;
         cout<<"3 - Profesores"<<endl;
         cout<<"4 - Carreras"<<endl;
-        cout<<"5 - Reporte de Estudiantes"<<endl;
+        cout<<"5 - Lista de Estudiantes"<<endl;
         cout<<"6 - Horarios de Atencion"<<endl;
         cout<<"7 - Salir"<<endl;
 
@@ -37,7 +37,7 @@ void menu(){
             break;
         case 2:
             system("cls");
-            //estudiantes();
+            listaEstudiantes();
             break;
         case 3:
             //profesores();
