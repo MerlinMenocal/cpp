@@ -1,11 +1,10 @@
 #include <iostream>
 #include "politicas.h"
-//#include "estudiantes.h"
+#include "estudiantes.h"
 #include "horarios.h"
 
 using namespace std;
 
-extern string ingresoEstudiantes[10][9];
 
 void menu(){
     bool salir = false;
@@ -39,7 +38,7 @@ void menu(){
             break;
         case 2:
             system("cls");
-            ingresoEstudiantes[10][9];
+            listaAlumnos();
             break;
         case 3:
             //profesores();
