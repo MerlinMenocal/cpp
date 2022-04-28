@@ -26,5 +26,4 @@ void mostrarProfesores (){
       system("pause");
 
   }
-  system("pause");
 };
