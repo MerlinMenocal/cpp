@@ -5,6 +5,21 @@ using namespace std;
 
 //void estudiantes();
 
+void listaEstudiantes(){
+
+           cout<<"Ingresastes estos Datos:"<<endl;
+           cout<<ingresoEstudiantes[0][0]<<endl;
+           cout<<ingresoEstudiantes[0][1]<<endl;
+           cout<<ingresoEstudiantes[0][2]<<endl;
+           cout<<ingresoEstudiantes[0][3]<<endl;
+           cout<<ingresoEstudiantes[0][4]<<endl;
+           cout<<ingresoEstudiantes[0][5]<<endl;
+           cout<<ingresoEstudiantes[0][6]<<endl;
+           cout<<ingresoEstudiantes[0][7]<<endl;
+           cout<<ingresoEstudiantes[0][8]<<endl; 
+    }
+    
+
     int main(int argc, char const *argv[])
     {
         
@@ -57,19 +72,6 @@ using namespace std;
     };
     string ingresoEstudiantes[10][9];
 
-    void listaEstudiantes(){
-
-           cout<<"Ingresastes estos Datos:"<<endl;
-           cout<<ingresoEstudiantes[0][0]<<endl;
-           cout<<ingresoEstudiantes[0][1]<<endl;
-           cout<<ingresoEstudiantes[0][2]<<endl;
-           cout<<ingresoEstudiantes[0][3]<<endl;
-           cout<<ingresoEstudiantes[0][4]<<endl;
-           cout<<ingresoEstudiantes[0][5]<<endl;
-           cout<<ingresoEstudiantes[0][6]<<endl;
-           cout<<ingresoEstudiantes[0][7]<<endl;
-           cout<<ingresoEstudiantes[0][8]<<endl; 
-    }
     
 
     
