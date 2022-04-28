@@ -16,7 +16,7 @@ string  profesores[10][2]{
 };
 
 void mostrarProfesores (){
-    system("cls");
+    system("pause");
 
   for (int i = 0; i <10; i++)
   {
@@ -25,7 +25,6 @@ void mostrarProfesores (){
       cout<<endl;
       cout<<profesores[i][0]<<" | "<<profesores[i][1];
       cout<<endl;
-      system("pause");
 
   }
 };
