@@ -25,7 +25,7 @@ void mostrarProfesores (){
       cout<<endl;
       cout<<profesores[i][0]<<" | "<<profesores[i][1];
       cout<<endl;
-      //system("pause");
+      system("pause");
 
   }
 };
