@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 string alumnos [10][9]
 {
     {"E001","Pedro Jose","Perez Torres","0104-2041-00084","8841-7741","15","Masculino","pjose@gmail.com","Noveno Grado"},
@@ -38,7 +37,7 @@ void listaAlumnos (){
             
         }
     system("pause");
-};
+}
 
     
     
