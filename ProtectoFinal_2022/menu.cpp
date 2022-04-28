@@ -37,7 +37,7 @@ void menu(){
             politicas();
             break;
         case 2:
-            system("cls");
+            system("pause");
             listaAlumnos();
             break;
         case 3:
