@@ -37,7 +37,7 @@ void listaAlumnos (){
             cout<<endl;    
             
         }
-    
+    system("pause");
 };
 
     
