@@ -94,14 +94,15 @@ void listaAlumnos (){
     for (int i = 0; i <5; i++)
         {
             cout<<"Codigo: "<<alumnos[i][0]<<endl;
-            cout<<"Nombre: "<<alumnos[i][0]<<endl;
-            cout<<"Apellido: "<<alumnos[i][1]<<endl;
-            cout<<"ID: "<<alumnos[i][2]<<endl;
-            cout<<"Telefono: "<<alumnos[i][3]<<endl;
-            cout<<"Edad: "<<alumnos[i][4]<<endl;
-            cout<<"Sexo: "<<alumnos[i][5]<<endl;
-            cout<<"Correo Electronico: "<<alumnos[i][6]<<endl;
-            cout<<"Grado: "<<alumnos[i][6]<<endl;     
+            cout<<"Nombre: "<<alumnos[i][1]<<endl;
+            cout<<"Apellido: "<<alumnos[i][2]<<endl;
+            cout<<"ID: "<<alumnos[i][3]<<endl;
+            cout<<"Telefono: "<<alumnos[i][4]<<endl;
+            cout<<"Edad: "<<alumnos[i][5]<<endl;
+            cout<<"Sexo: "<<alumnos[i][6]<<endl;
+            cout<<"Correo Electronico: "<<alumnos[i][7]<<endl;
+            cout<<"Grado: "<<alumnos[i][8]<<endl; 
+            cout<<endl;    
             
         }
     
