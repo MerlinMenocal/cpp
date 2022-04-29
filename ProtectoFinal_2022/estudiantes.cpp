@@ -16,7 +16,7 @@ void listaAlumnos (string codigo, string nombre, string apellido, string id, str
     cout<<"LISTADO DE ALUMNOS"<<endl;
     cout<<"********************"<<endl;
 
-    for (int i = 0; i <1; i++) //imprime solo 3 alumnos para efectos de prueba
+    for (int i = 0; i <10; i++) //imprime solo 3 alumnos para efectos de prueba
         {
             cout<<"Codigo: "<<codigo<<endl;
             cout<<"Nombre: "<<nombre<<endl;
