@@ -42,7 +42,7 @@ void menu(){
             listaAlumnos();
             break;
         case 3:
-            system("cls");
+            system("pause");
             mostrarProfesores();
             break;    
         case 4: 
