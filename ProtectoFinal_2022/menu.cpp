@@ -45,6 +45,7 @@ void menu(){
             mostrarProfesores();
             break;    
         case 4: 
+            system("cls");
             listaAlumnos();
             break;
         case 5:
