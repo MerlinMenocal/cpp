@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-string alumnos [0][9];
+string alumnos [10][9];
     // {
     //     {"E001","Pedro Jose","Perez Torres","0104-2041-00084","8841-7741","15","Masculino","pjose@gmail.com","Noveno Grado"},
     //     {"E002","Maria Elena","Caceres Padilla","0104-2041-10084","8841-7741","6","Femenino","mariaelena@gmail.com","Primer Grado"},
@@ -16,7 +16,7 @@ void listaAlumnos (){
     cout<<"LISTADO DE ALUMNOS"<<endl;
     cout<<"********************"<<endl;
 
-    for (int i = 0; i <1; i++) //imprime solo 3 alumnos para efectos de prueba
+    for (int i = 0; i <10; i++) //imprime solo 3 alumnos para efectos de prueba
         {
             cout<<"Codigo: "<<alumnos[i][0]<<endl;
             cout<<"Nombre: "<<alumnos[i][1]<<endl;
