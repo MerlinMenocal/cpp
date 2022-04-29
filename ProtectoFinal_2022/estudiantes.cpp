@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-string alumnos [10][9];
+//string alumnos [10][9];
     // {
     //     {"E001","Pedro Jose","Perez Torres","0104-2041-00084","8841-7741","15","Masculino","pjose@gmail.com","Noveno Grado"},
     //     {"E002","Maria Elena","Caceres Padilla","0104-2041-10084","8841-7741","6","Femenino","mariaelena@gmail.com","Primer Grado"},
@@ -10,7 +10,7 @@ string alumnos [10][9];
     //     {"E005","Escarleth Adriana","Ponce Fuentes","0104-2041-10084","8841-7741","8","Femenino","esadriana@gmail.com","Tercer Grado"},
     // };   
 
-void listaAlumnos (){
+void listaAlumnos (string codigo, string nombre, string apellido, string id, string telefono, string edad, string sexo, string correo, string grado){
     system("cls");
     cout<<endl;
     cout<<"LISTADO DE ALUMNOS"<<endl;
@@ -18,15 +18,15 @@ void listaAlumnos (){
 
     for (int i = 0; i <10; i++) //imprime solo 3 alumnos para efectos de prueba
         {
-            cout<<"Codigo: "<<alumnos[i][0]<<endl;
-            cout<<"Nombre: "<<alumnos[i][1]<<endl;
-            cout<<"Apellido: "<<alumnos[i][2]<<endl;
-            cout<<"ID: "<<alumnos[i][3]<<endl;
-            cout<<"Telefono: "<<alumnos[i][4]<<endl;
-            cout<<"Edad: "<<alumnos[i][5]<<endl;
-            cout<<"Sexo: "<<alumnos[i][6]<<endl;
-            cout<<"Correo Electronico: "<<alumnos[i][7]<<endl;
-            cout<<"Grado: "<<alumnos[i][8]<<endl; 
+            cout<<"Codigo: "<<codigo<<endl;
+            cout<<"Nombre: "<<nombre<<endl;
+            cout<<"Apellido: "<<apellido<<endl;
+            cout<<"ID: "<<id<<endl;
+            cout<<"Telefono: "<<telefono<<endl;
+            cout<<"Edad: "<<edad<<endl;
+            cout<<"Sexo: "<<sexo<<endl;
+            cout<<"Correo Electronico: "<<correo<<endl;
+            cout<<"Grado: "<<grado<<endl; 
             cout<<endl;    
             
         }
@@ -36,33 +36,39 @@ void listaAlumnos (){
 
 void ingresoAlumnos(){
 
+    string codigo = "", nombre = "", apellido = "", id= "", telefono = "", edad="", sexo = "", correo = "", grado = "";
+    
+
     system("cls");
     cout<<endl;
     cout<<"INGRESO DE DATOS"<<endl;
     cout<<"**********************"<<endl;
     cout<<"Ingrese el Codigo del Alumno: ";
-    cin>>alumnos[0][0];
+    cin>>codigo;
     cout<<endl;
     cout<<"Ingrese el Nombre: ";
-    cin>>alumnos[0][1];
+    cin>>nombre;
+    cout<<endl;
+    cout<<"Ingrese el Nombre: ";
+    cin>>apellido;
     cout<<endl;
     cout<<"Ingrese el ID: ";
-    cin>>alumnos[0][2];
+    cin>>id;
     cout<<endl;
     cout<<"Ingrese el Telefono: ";
-    cin>>alumnos[0][3];
+    cin>>telefono;
     cout<<endl;
     cout<<"Ingrese la Edad: ";
-    cin>>alumnos[0][4];
+    cin>>edad;
     cout<<endl;
     cout<<"Ingrese el Sexo: ";
-    cin>>alumnos[0][5];
+    cin>>sexo;
     cout<<endl;
     cout<<"Ingrese el Correo Electronico: ";
-    cin>>alumnos[0][6];
+    cin>>correo;
     cout<<endl;
     cout<<"Ingrese el Grado o carrera a cursar: ";
-    cin>>alumnos[0][7];
+    cin>>grado;
     cout<<endl;
     cout<<endl;
 };
