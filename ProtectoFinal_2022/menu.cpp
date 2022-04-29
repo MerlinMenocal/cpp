@@ -18,7 +18,7 @@ void menu(){
         cout<<"--------------"<<endl;
         cout<<endl;
         cout<<"1 - Politicas de la Institucion"<<endl;
-        cout<<"2 - Lista de Estudiantes"<<endl;
+        cout<<"2 - Ingreso de Estudiantes"<<endl;
         cout<<"3 - Profesores"<<endl;
         cout<<"4 - Reporte de Estudiantes"<<endl;
         cout<<"5 - Horarios de Atencion"<<endl;

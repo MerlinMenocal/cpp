@@ -4,7 +4,7 @@ using namespace std;
 
 
 void listaAlumnos (string codigo, string nombre, string apellido, string id, string telefono, string edad, string sexo, string correo, string grado){
-    //system("cls");
+    system("cls");
     cout<<endl;
     cout<<"LISTADO DE ALUMNOS"<<endl;
     cout<<"********************"<<endl;
