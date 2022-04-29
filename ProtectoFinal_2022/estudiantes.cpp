@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-string alumnos [1][9];
+string alumnos [0][9];
     // {
     //     {"E001","Pedro Jose","Perez Torres","0104-2041-00084","8841-7741","15","Masculino","pjose@gmail.com","Noveno Grado"},
     //     {"E002","Maria Elena","Caceres Padilla","0104-2041-10084","8841-7741","6","Femenino","mariaelena@gmail.com","Primer Grado"},
