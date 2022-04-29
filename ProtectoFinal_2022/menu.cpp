@@ -18,12 +18,11 @@ void menu(){
         cout<<"--------------"<<endl;
         cout<<endl;
         cout<<"1 - Politicas de la Institucion"<<endl;
-        cout<<"2 - Estudiantes"<<endl;
+        cout<<"2 - Lista de Estudiantes"<<endl;
         cout<<"3 - Profesores"<<endl;
-        cout<<"4 - Carreras"<<endl;
-        cout<<"5 - Lista de Estudiantes"<<endl;
-        cout<<"6 - Horarios de Atencion"<<endl;
-        cout<<"7 - Salir"<<endl;
+        cout<<"4 - Reporte de Estudiantes"<<endl;
+        cout<<"5 - Horarios de Atencion"<<endl;
+        cout<<"6 - Salir"<<endl;
 
 
         cout<<endl;
@@ -39,23 +38,20 @@ void menu(){
             break;
         case 2:
             system("cls");
-            listaAlumnos();
+            ingresoAlumnos();
             break;
         case 3:
             //system("cls");
             mostrarProfesores();
             break;    
         case 4: 
-            //carreras();
-            break;
-        case 5: 
             //reporteEstudiantes();
             break;
-        case 6:
+        case 5:
             system("cls");
             horarios();
             break;
-        case 7:
+        case 6:
             salir = true;
             
         default:

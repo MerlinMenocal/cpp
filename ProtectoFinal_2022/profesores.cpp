@@ -28,6 +28,7 @@ void mostrarProfesores (){
       
       cout<<profesores[i][0]<<" | "<<profesores[i][1];
       cout<<endl;
+      cout<<endl;
 
   }
   system("pause");

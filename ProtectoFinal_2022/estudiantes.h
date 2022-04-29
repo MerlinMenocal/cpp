@@ -1,1 +1,2 @@
-void listaAlumnos();
+//void listaAlumnos();
+void ingresoAlumnos();
