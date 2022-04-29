@@ -16,7 +16,7 @@ string  profesores[10][2]{
 };
 
 void mostrarProfesores (){
-    system("cls");
+    system("pause");
 
     cout<<"PROFESORES DE LA INSTITUCION"<<endl;
     cout<<"----------------------------"<<endl;
