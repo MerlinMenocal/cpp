@@ -18,10 +18,11 @@ string  profesores[10][2]{
 void mostrarProfesores (){
     system("cls");
 
+    cout<<"PROFESORES DE LA INSTITUCION"<<endl;
+    cout<<"----------------------------"<<endl;
+
   for (int i = 0; i <10; i++)
   {
-      cout<<"PROFESORES DE LA INSTITUCION"<<endl;
-      cout<<"----------------------------"<<endl;
       cout<<endl;
       cout<<profesores[i][0]<<" | "<<profesores[i][1];
       cout<<endl;
